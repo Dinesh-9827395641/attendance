@@ -1,0 +1,2404 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>School Attendance Manager</title>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script id="appData" type="application/json">{"fileId":"SVKM-MASTER-0001","masterPassword":"Svkm@1812","school":"SVKM SCHOOL, DHULE","session":{"name":"2026-27","start":"2026-06-15","end":"2027-02-24"},"holidays":[{"id":"smufe5bwb6z2p6","date":"2026-06-26","reason":"Muharram","type":"Festival"},{"id":"smufe9n6cpt3e6","date":"2026-07-18","reason":"3rd Saturday","type":"Other"},{"id":"smufeadiafflu7","date":"2026-07-24","reason":"PTM - Holiday","type":"Other"},{"id":"smufebn4rwhzw7","date":"2026-07-25","reason":"Ashadi Ekadash","type":"Festival"},{"id":"smufec3gs9vpni","date":"2026-07-31","reason":"Declared Holiday","type":"Other"},{"id":"smufekbf010ohj","date":"2026-08-26","reason":"Eid-E-Milad","type":"Festival"},{"id":"smufel02ttxtti","date":"2026-08-28","reason":"Raksha Bandhan","type":"Festival"},{"id":"smuferiu4fqu33","date":"2026-09-04","reason":"Krishna Janmashtami","type":"Festival"},{"id":"smufers1yh619p","date":"2026-09-10","reason":"Pola","type":"Festival"},{"id":"smufes6zi8azh0","date":"2026-09-14","reason":"Ganesh Chaturthi","type":"Festival"},{"id":"smufesidpleffe","date":"2026-09-19","reason":"Third Saturday","type":"Other"},{"id":"smufessyl7pd9x","date":"2026-09-25","reason":"Anant Chaturdashi","type":"Festival"},{"id":"smungtyek6mymr","date":"2026-10-02","reason":"Gandhi Jayanti","type":"National"},{"id":"smus0ddmo0hu3n","date":"2026-10-21","reason":"Dussehra","type":"Festival"},{"id":"smus0e7xjnsk9o","date":"2026-11-05","reason":"Diwali Holiday","type":"Festival"},{"id":"smus0el9r8vps9","date":"2026-11-06","reason":"Diwali Holiday","type":"Festival"},{"id":"smus0esfqgl820","date":"2026-11-07","reason":"Diwali Holiday","type":"Festival"},{"id":"smus0eyo6u1x6s","date":"2026-11-09","reason":"Diwali Holiday","type":"Festival"},{"id":"smus0f9ye9l5xu","date":"2026-11-10","reason":"Diwali Holiday","type":"Festival"},{"id":"smus0ff1bswfgm","date":"2026-11-11","reason":"Diwali Holiday","type":"Festival"},{"id":"smus0fndi082ug","date":"2026-10-12","reason":"Diwali Holiday","type":"Festival"},{"id":"smus0gjza713lm","date":"2026-11-12","reason":"Diwali Holiday","type":"Festival"},{"id":"smus0hdrqikf88","date":"2026-11-13","reason":"Diwali Holiday","type":"Festival"},{"id":"smus0hktivdmo2","date":"2026-11-14","reason":"Diwali Holiday","type":"Festival"},{"id":"smus0i1fbmu1u7","date":"2026-11-21","reason":"Third Saturday","type":"Other"},{"id":"smus0idn33qmj4","date":"2026-11-24","reason":"Guru Nanak Jayanti","type":"Festival"},{"id":"smus0isiv87emu","date":"2026-12-19","reason":"Third Saturday","type":"Other"},{"id":"smus0l0iex9ip9","date":"2026-12-25","reason":"Christmas","type":"Festival"},{"id":"smus0ldevgogcu","date":"2026-12-26","reason":"Christmas Holiday","type":"Festival"},{"id":"smus0lr27b96pq","date":"2027-01-01","reason":"New Year","type":"Other"},{"id":"smus0m5na1ppgl","date":"2027-01-14","reason":"Makar Sankranti","type":"Festival"},{"id":"smus0mkgezmyfd","date":"2027-01-16","reason":"Third Saturday","type":"Other"},{"id":"smus0mx2vwyuy8","date":"2027-01-26","reason":"Republic Day","type":"National"},{"id":"smus0ndti2hq4t","date":"2027-02-19","reason":"Shiv Jayanti","type":"Festival"},{"id":"smus0nqt2aeixg","date":"2027-02-20","reason":"Third Saturday","type":"Other"}],"houses":[{"id":"smufe2sxga2jvj","name":"Emerald","color":"#4fe64c"},{"id":"smufe31futgop8","name":"Ruby","color":"#f92f0b"},{"id":"smufe369u0imvs","name":"Sapphire","color":"#4f46e5"},{"id":"smufe3gd68skxd","name":"Topaz","color":"#f2fb6f"}],"settings":{"sundayHoliday":true},"classes":[{"id":"cls-xi-c","name":"XI-C","password":"1234","students":[{"id":"smufe3tpkyco31","name":"DIYA SONI","gender":"Female","sec":"C","dob":"2010-10-20","father":"DINESH KUMAR SONI","mother":"HINA SONI","house":"Emerald","c1":"9827395641","c2":"7999361761","address":"Dhule","admitDate":"2026-06-15","leftDate":""},{"id":"smufe3tpkn6214","name":"JAL MATUR PADAILYA","gender":"Male","sec":"C","dob":"2010-01-06","father":"MAYUR PATIL","mother":"KAJAL PADALIYA","house":"Ruby","c1":"8551943303","c2":"9545203332","address":"Dhule","admitDate":"2026-06-15","leftDate":""},{"id":"smufe3tpkh2pym","name":"KHUSHI DEEPESH AGRAWAL","gender":"Female","sec":"C","dob":"2009-10-26","father":"DEEPESH AGRAWAL","mother":"KHUSHBOO AGRAWAL","house":"Emerald","c1":"9422787606","c2":"9422749304","address":"Dhule","admitDate":"2026-06-15","leftDate":""},{"id":"smufe3tpk0hg9e","name":"MOHIT YOGESH PATIL","gender":"Male","sec":"C","dob":"2011-02-19","father":"YOGESH PATIL","mother":"YOGESH PATIL","house":"Emerald","c1":"8888452555","c2":"9404061255","address":"Dhule","admitDate":"2026-06-15","leftDate":""},{"id":"smufe3tpk8kkqx","name":"PARTH PRADIP BAVISKAR","gender":"Male","sec":"C","dob":"2010-07-09","father":"PRADIP BAVISKAR","mother":"KALPANA BAVISKAR","house":"Ruby","c1":"9423287870","c2":"9420182351","address":"Dhule","admitDate":"2026-06-15","leftDate":""},{"id":"smufe3tpk9dlj0","name":"SHIVTEJ RANDHIR WAGH","gender":"Male","sec":"C","dob":"2010-12-02","father":"RANDIR WAGH","mother":"TEJASWITA WAGH","house":"Sapphire","c1":"8600121555","c2":"7972664218","address":"Dhule","admitDate":"2026-06-15","leftDate":""},{"id":"smufe3tpkk3e35","name":"SIDDESH PRAVIN TANEJA","gender":"Male","sec":"C","dob":"2010-11-15","father":"PRAVIN TANEJA","mother":"PRIYANKA TANEJA","house":"Sapphire","c1":"9423917461","c2":"9518783654","address":"Dhule","admitDate":"2026-06-15","leftDate":""},{"id":"smufe3tpk29awl","name":"SIDDHANT KALPESH AGRAWAL","gender":"Male","sec":"C","dob":"2010-03-14","father":"KALPESH AGRAWAL","mother":"ANCHAL AGRAWAL","house":"Ruby","c1":"9422786069","c2":"9422774844","address":"Dhule","admitDate":"2026-06-15","leftDate":""}],"attendance":{"smufe3tpkyco31|2026-06-15":"P","smufe3tpkyco31|2026-06-16":"P","smufe3tpkyco31|2026-06-17":"P","smufe3tpkyco31|2026-06-18":"P","smufe3tpkyco31|2026-06-19":"P","smufe3tpkyco31|2026-06-20":"P","smufe3tpkyco31|2026-06-22":"P","smufe3tpkyco31|2026-06-23":"P","smufe3tpkyco31|2026-06-24":"P","smufe3tpkyco31|2026-06-25":"A","smufe3tpkyco31|2026-06-27":"P","smufe3tpkyco31|2026-06-29":"P","smufe3tpkyco31|2026-06-30":"P","smufe3tpkn6214|2026-06-15":"P","smufe3tpkn6214|2026-06-16":"P","smufe3tpkn6214|2026-06-17":"P","smufe3tpkn6214|2026-06-18":"P","smufe3tpkn6214|2026-06-19":"P","smufe3tpkn6214|2026-06-20":"P","smufe3tpkn6214|2026-06-22":"P","smufe3tpkn6214|2026-06-23":"P","smufe3tpkn6214|2026-06-24":"P","smufe3tpkn6214|2026-06-25":"P","smufe3tpkn6214|2026-06-27":"P","smufe3tpkn6214|2026-06-29":"P","smufe3tpkn6214|2026-06-30":"P","smufe3tpkh2pym|2026-06-15":"A","smufe3tpkh2pym|2026-06-16":"A","smufe3tpkh2pym|2026-06-17":"P","smufe3tpkh2pym|2026-06-18":"P","smufe3tpkh2pym|2026-06-19":"P","smufe3tpkh2pym|2026-06-20":"P","smufe3tpkh2pym|2026-06-22":"P","smufe3tpkh2pym|2026-06-23":"P","smufe3tpkh2pym|2026-06-24":"P","smufe3tpkh2pym|2026-06-25":"A","smufe3tpkh2pym|2026-06-27":"P","smufe3tpkh2pym|2026-06-29":"P","smufe3tpkh2pym|2026-06-30":"P","smufe3tpk0hg9e|2026-06-15":"P","smufe3tpk0hg9e|2026-06-16":"P","smufe3tpk0hg9e|2026-06-17":"P","smufe3tpk0hg9e|2026-06-18":"P","smufe3tpk0hg9e|2026-06-19":"A","smufe3tpk0hg9e|2026-06-20":"P","smufe3tpk0hg9e|2026-06-22":"P","smufe3tpk0hg9e|2026-06-23":"P","smufe3tpk0hg9e|2026-06-24":"P","smufe3tpk0hg9e|2026-06-25":"P","smufe3tpk0hg9e|2026-06-27":"P","smufe3tpk0hg9e|2026-06-29":"P","smufe3tpk0hg9e|2026-06-30":"P","smufe3tpk8kkqx|2026-06-15":"P","smufe3tpk8kkqx|2026-06-16":"P","smufe3tpk8kkqx|2026-06-17":"A","smufe3tpk8kkqx|2026-06-18":"P","smufe3tpk8kkqx|2026-06-19":"P","smufe3tpk8kkqx|2026-06-20":"P","smufe3tpk8kkqx|2026-06-22":"P","smufe3tpk8kkqx|2026-06-23":"P","smufe3tpk8kkqx|2026-06-24":"P","smufe3tpk8kkqx|2026-06-25":"P","smufe3tpk8kkqx|2026-06-27":"P","smufe3tpk8kkqx|2026-06-29":"P","smufe3tpk8kkqx|2026-06-30":"P","smufe3tpk9dlj0|2026-06-15":"A","smufe3tpk9dlj0|2026-06-16":"A","smufe3tpk9dlj0|2026-06-17":"A","smufe3tpk9dlj0|2026-06-18":"A","smufe3tpk9dlj0|2026-06-19":"P","smufe3tpk9dlj0|2026-06-20":"P","smufe3tpk9dlj0|2026-06-22":"P","smufe3tpk9dlj0|2026-06-23":"A","smufe3tpk9dlj0|2026-06-24":"P","smufe3tpk9dlj0|2026-06-25":"P","smufe3tpk9dlj0|2026-06-27":"P","smufe3tpk9dlj0|2026-06-29":"P","smufe3tpk9dlj0|2026-06-30":"P","smufe3tpkk3e35|2026-06-15":"A","smufe3tpkk3e35|2026-06-16":"A","smufe3tpkk3e35|2026-06-17":"A","smufe3tpkk3e35|2026-06-18":"A","smufe3tpkk3e35|2026-06-19":"A","smufe3tpkk3e35|2026-06-20":"A","smufe3tpkk3e35|2026-06-22":"P","smufe3tpkk3e35|2026-06-23":"P","smufe3tpkk3e35|2026-06-24":"P","smufe3tpkk3e35|2026-06-25":"P","smufe3tpkk3e35|2026-06-27":"P","smufe3tpkk3e35|2026-06-29":"P","smufe3tpkk3e35|2026-06-30":"P","smufe3tpk29awl|2026-06-15":"A","smufe3tpk29awl|2026-06-16":"A","smufe3tpk29awl|2026-06-17":"A","smufe3tpk29awl|2026-06-18":"A","smufe3tpk29awl|2026-06-19":"A","smufe3tpk29awl|2026-06-20":"A","smufe3tpk29awl|2026-06-22":"P","smufe3tpk29awl|2026-06-23":"P","smufe3tpk29awl|2026-06-24":"P","smufe3tpk29awl|2026-06-25":"A","smufe3tpk29awl|2026-06-27":"P","smufe3tpk29awl|2026-06-29":"P","smufe3tpk29awl|2026-06-30":"P","smufe3tpkyco31|2026-07-01":"A","smufe3tpkyco31|2026-07-02":"P","smufe3tpkyco31|2026-07-03":"P","smufe3tpkyco31|2026-07-04":"P","smufe3tpkyco31|2026-07-06":"P","smufe3tpkyco31|2026-07-07":"P","smufe3tpkyco31|2026-07-08":"P","smufe3tpkyco31|2026-07-09":"P","smufe3tpkyco31|2026-07-10":"P","smufe3tpkyco31|2026-07-11":"P","smufe3tpkyco31|2026-07-13":"P","smufe3tpkyco31|2026-07-14":"P","smufe3tpkyco31|2026-07-15":"P","smufe3tpkyco31|2026-07-16":"P","smufe3tpkyco31|2026-07-17":"P","smufe3tpkyco31|2026-07-20":"P","smufe3tpkyco31|2026-07-21":"P","smufe3tpkyco31|2026-07-22":"P","smufe3tpkyco31|2026-07-23":"P","smufe3tpkyco31|2026-07-27":"P","smufe3tpkyco31|2026-07-28":"P","smufe3tpkyco31|2026-07-29":"P","smufe3tpkyco31|2026-07-30":"P","smufe3tpkn6214|2026-07-01":"P","smufe3tpkn6214|2026-07-02":"P","smufe3tpkn6214|2026-07-03":"P","smufe3tpkn6214|2026-07-04":"P","smufe3tpkn6214|2026-07-07":"P","smufe3tpkn6214|2026-07-08":"P","smufe3tpkn6214|2026-07-09":"P","smufe3tpkn6214|2026-07-10":"P","smufe3tpkn6214|2026-07-13":"P","smufe3tpkn6214|2026-07-14":"P","smufe3tpkn6214|2026-07-15":"P","smufe3tpkn6214|2026-07-16":"P","smufe3tpkn6214|2026-07-17":"P","smufe3tpkn6214|2026-07-20":"P","smufe3tpkn6214|2026-07-21":"P","smufe3tpkn6214|2026-07-22":"P","smufe3tpkn6214|2026-07-23":"P","smufe3tpkn6214|2026-07-27":"P","smufe3tpkn6214|2026-07-28":"P","smufe3tpkn6214|2026-07-30":"P","smufe3tpkh2pym|2026-07-01":"P","smufe3tpkh2pym|2026-07-02":"P","smufe3tpkh2pym|2026-07-03":"P","smufe3tpkh2pym|2026-07-04":"P","smufe3tpkh2pym|2026-07-06":"A","smufe3tpkh2pym|2026-07-07":"P","smufe3tpkh2pym|2026-07-08":"P","smufe3tpkh2pym|2026-07-09":"P","smufe3tpkh2pym|2026-07-10":"P","smufe3tpkh2pym|2026-07-11":"A","smufe3tpkh2pym|2026-07-13":"P","smufe3tpkh2pym|2026-07-14":"P","smufe3tpkh2pym|2026-07-15":"P","smufe3tpkh2pym|2026-07-16":"P","smufe3tpkh2pym|2026-07-17":"P","smufe3tpkh2pym|2026-07-20":"P","smufe3tpkh2pym|2026-07-21":"P","smufe3tpkh2pym|2026-07-22":"P","smufe3tpkh2pym|2026-07-23":"P","smufe3tpkh2pym|2026-07-27":"P","smufe3tpkh2pym|2026-07-28":"P","smufe3tpkh2pym|2026-07-29":"A","smufe3tpkh2pym|2026-07-30":"P","smufe3tpk0hg9e|2026-07-01":"P","smufe3tpk0hg9e|2026-07-02":"P","smufe3tpk0hg9e|2026-07-03":"P","smufe3tpk0hg9e|2026-07-04":"P","smufe3tpk0hg9e|2026-07-06":"P","smufe3tpk0hg9e|2026-07-07":"P","smufe3tpk0hg9e|2026-07-08":"P","smufe3tpk0hg9e|2026-07-09":"P","smufe3tpk0hg9e|2026-07-10":"A","smufe3tpk0hg9e|2026-07-11":"P","smufe3tpk0hg9e|2026-07-13":"P","smufe3tpk0hg9e|2026-07-14":"P","smufe3tpk0hg9e|2026-07-15":"P","smufe3tpk0hg9e|2026-07-16":"P","smufe3tpk0hg9e|2026-07-17":"P","smufe3tpk0hg9e|2026-07-20":"P","smufe3tpk0hg9e|2026-07-21":"P","smufe3tpk0hg9e|2026-07-22":"P","smufe3tpk0hg9e|2026-07-23":"P","smufe3tpk0hg9e|2026-07-27":"A","smufe3tpk0hg9e|2026-07-28":"P","smufe3tpk0hg9e|2026-07-29":"P","smufe3tpk0hg9e|2026-07-30":"P","smufe3tpk8kkqx|2026-07-01":"P","smufe3tpk8kkqx|2026-07-02":"P","smufe3tpk8kkqx|2026-07-03":"P","smufe3tpk8kkqx|2026-07-04":"P","smufe3tpk8kkqx|2026-07-06":"P","smufe3tpk8kkqx|2026-07-07":"P","smufe3tpk8kkqx|2026-07-08":"P","smufe3tpk8kkqx|2026-07-09":"P","smufe3tpk8kkqx|2026-07-10":"P","smufe3tpk8kkqx|2026-07-11":"P","smufe3tpk8kkqx|2026-07-13":"P","smufe3tpk8kkqx|2026-07-14":"P","smufe3tpk8kkqx|2026-07-15":"P","smufe3tpk8kkqx|2026-07-16":"A","smufe3tpk8kkqx|2026-07-17":"A","smufe3tpk8kkqx|2026-07-20":"A","smufe3tpk8kkqx|2026-07-21":"A","smufe3tpk8kkqx|2026-07-22":"A","smufe3tpk8kkqx|2026-07-23":"A","smufe3tpk8kkqx|2026-07-27":"P","smufe3tpk8kkqx|2026-07-28":"P","smufe3tpk8kkqx|2026-07-29":"P","smufe3tpk8kkqx|2026-07-30":"P","smufe3tpk9dlj0|2026-07-01":"P","smufe3tpk9dlj0|2026-07-02":"P","smufe3tpk9dlj0|2026-07-03":"P","smufe3tpk9dlj0|2026-07-04":"P","smufe3tpk9dlj0|2026-07-06":"P","smufe3tpk9dlj0|2026-07-07":"P","smufe3tpk9dlj0|2026-07-08":"P","smufe3tpk9dlj0|2026-07-09":"P","smufe3tpk9dlj0|2026-07-10":"P","smufe3tpk9dlj0|2026-07-11":"A","smufe3tpk9dlj0|2026-07-13":"P","smufe3tpk9dlj0|2026-07-14":"P","smufe3tpk9dlj0|2026-07-15":"A","smufe3tpk9dlj0|2026-07-16":"P","smufe3tpk9dlj0|2026-07-17":"A","smufe3tpk9dlj0|2026-07-20":"P","smufe3tpk9dlj0|2026-07-21":"A","smufe3tpk9dlj0|2026-07-22":"A","smufe3tpk9dlj0|2026-07-23":"P","smufe3tpk9dlj0|2026-07-27":"P","smufe3tpk9dlj0|2026-07-28":"P","smufe3tpk9dlj0|2026-07-29":"P","smufe3tpk9dlj0|2026-07-30":"P","smufe3tpkk3e35|2026-07-01":"P","smufe3tpkk3e35|2026-07-02":"P","smufe3tpkk3e35|2026-07-03":"A","smufe3tpkk3e35|2026-07-04":"P","smufe3tpkk3e35|2026-07-06":"P","smufe3tpkk3e35|2026-07-07":"P","smufe3tpkk3e35|2026-07-08":"P","smufe3tpkk3e35|2026-07-09":"P","smufe3tpkk3e35|2026-07-10":"P","smufe3tpkk3e35|2026-07-11":"A","smufe3tpkk3e35|2026-07-13":"P","smufe3tpkk3e35|2026-07-14":"P","smufe3tpkk3e35|2026-07-15":"P","smufe3tpkk3e35|2026-07-16":"P","smufe3tpkk3e35|2026-07-17":"P","smufe3tpkk3e35|2026-07-20":"P","smufe3tpkk3e35|2026-07-21":"P","smufe3tpkk3e35|2026-07-22":"A","smufe3tpkk3e35|2026-07-23":"P","smufe3tpkk3e35|2026-07-27":"P","smufe3tpkk3e35|2026-07-28":"P","smufe3tpkk3e35|2026-07-29":"P","smufe3tpkk3e35|2026-07-30":"P","smufe3tpk29awl|2026-07-01":"P","smufe3tpk29awl|2026-07-02":"A","smufe3tpk29awl|2026-07-03":"A","smufe3tpk29awl|2026-07-04":"A","smufe3tpk29awl|2026-07-06":"P","smufe3tpk29awl|2026-07-07":"P","smufe3tpk29awl|2026-07-08":"P","smufe3tpk29awl|2026-07-09":"P","smufe3tpk29awl|2026-07-10":"A","smufe3tpk29awl|2026-07-11":"A","smufe3tpk29awl|2026-07-13":"P","smufe3tpk29awl|2026-07-14":"P","smufe3tpk29awl|2026-07-15":"A","smufe3tpk29awl|2026-07-16":"P","smufe3tpk29awl|2026-07-17":"A","smufe3tpk29awl|2026-07-20":"P","smufe3tpk29awl|2026-07-21":"P","smufe3tpk29awl|2026-07-22":"P","smufe3tpk29awl|2026-07-23":"P","smufe3tpk29awl|2026-07-27":"A","smufe3tpk29awl|2026-07-28":"A","smufe3tpk29awl|2026-07-29":"A","smufe3tpk29awl|2026-07-30":"A","smufe3tpkn6214|2026-07-06":"P","smufe3tpkn6214|2026-07-11":"P","smufe3tpkn6214|2026-07-29":"P","smufe3tpkyco31|2026-08-01":"P","smufe3tpkyco31|2026-08-03":"P","smufe3tpkyco31|2026-08-04":"P","smufe3tpkyco31|2026-08-05":"A","smufe3tpkyco31|2026-08-06":"P","smufe3tpkyco31|2026-08-07":"P","smufe3tpkyco31|2026-08-08":"P","smufe3tpkyco31|2026-08-10":"P","smufe3tpkyco31|2026-08-11":"P","smufe3tpkyco31|2026-08-12":"P","smufe3tpkyco31|2026-08-13":"P","smufe3tpkyco31|2026-08-14":"P","smufe3tpkyco31|2026-08-15":"P","smufe3tpkyco31|2026-08-17":"P","smufe3tpkyco31|2026-08-18":"P","smufe3tpkyco31|2026-08-19":"P","smufe3tpkyco31|2026-08-20":"P","smufe3tpkyco31|2026-08-21":"P","smufe3tpkyco31|2026-08-22":"P","smufe3tpkyco31|2026-08-24":"P","smufe3tpkyco31|2026-08-25":"P","smufe3tpkyco31|2026-08-27":"P","smufe3tpkyco31|2026-08-29":"P","smufe3tpkyco31|2026-08-31":"P","smufe3tpkn6214|2026-08-01":"P","smufe3tpkn6214|2026-08-03":"P","smufe3tpkn6214|2026-08-04":"P","smufe3tpkn6214|2026-08-05":"P","smufe3tpkn6214|2026-08-06":"P","smufe3tpkn6214|2026-08-07":"P","smufe3tpkn6214|2026-08-08":"P","smufe3tpkn6214|2026-08-10":"P","smufe3tpkn6214|2026-08-11":"P","smufe3tpkn6214|2026-08-12":"P","smufe3tpkn6214|2026-08-13":"P","smufe3tpkn6214|2026-08-14":"P","smufe3tpkn6214|2026-08-15":"A","smufe3tpkn6214|2026-08-17":"P","smufe3tpkn6214|2026-08-18":"P","smufe3tpkn6214|2026-08-19":"P","smufe3tpkn6214|2026-08-20":"P","smufe3tpkn6214|2026-08-21":"P","smufe3tpkn6214|2026-08-22":"P","smufe3tpkn6214|2026-08-24":"P","smufe3tpkn6214|2026-08-25":"P","smufe3tpkn6214|2026-08-27":"P","smufe3tpkn6214|2026-08-29":"P","smufe3tpkn6214|2026-08-31":"P","smufe3tpkh2pym|2026-08-01":"P","smufe3tpkh2pym|2026-08-03":"P","smufe3tpkh2pym|2026-08-04":"P","smufe3tpkh2pym|2026-08-05":"P","smufe3tpkh2pym|2026-08-06":"P","smufe3tpkh2pym|2026-08-07":"P","smufe3tpkh2pym|2026-08-08":"P","smufe3tpkh2pym|2026-08-10":"A","smufe3tpkh2pym|2026-08-11":"P","smufe3tpkh2pym|2026-08-12":"P","smufe3tpkh2pym|2026-08-13":"P","smufe3tpkh2pym|2026-08-14":"P","smufe3tpkh2pym|2026-08-15":"P","smufe3tpkh2pym|2026-08-17":"P","smufe3tpkh2pym|2026-08-18":"P","smufe3tpkh2pym|2026-08-19":"P","smufe3tpkh2pym|2026-08-20":"P","smufe3tpkh2pym|2026-08-21":"P","smufe3tpkh2pym|2026-08-22":"P","smufe3tpkh2pym|2026-08-24":"P","smufe3tpkh2pym|2026-08-25":"P","smufe3tpkh2pym|2026-08-27":"P","smufe3tpkh2pym|2026-08-29":"P","smufe3tpkh2pym|2026-08-31":"P","smufe3tpk0hg9e|2026-08-01":"P","smufe3tpk0hg9e|2026-08-03":"P","smufe3tpk0hg9e|2026-08-04":"P","smufe3tpk0hg9e|2026-08-05":"P","smufe3tpk0hg9e|2026-08-06":"P","smufe3tpk0hg9e|2026-08-07":"P","smufe3tpk0hg9e|2026-08-08":"A","smufe3tpk0hg9e|2026-08-10":"P","smufe3tpk0hg9e|2026-08-11":"P","smufe3tpk0hg9e|2026-08-12":"P","smufe3tpk0hg9e|2026-08-13":"P","smufe3tpk0hg9e|2026-08-14":"P","smufe3tpk0hg9e|2026-08-15":"A","smufe3tpk0hg9e|2026-08-17":"P","smufe3tpk0hg9e|2026-08-18":"P","smufe3tpk0hg9e|2026-08-19":"P","smufe3tpk0hg9e|2026-08-20":"P","smufe3tpk0hg9e|2026-08-21":"P","smufe3tpk0hg9e|2026-08-22":"P","smufe3tpk0hg9e|2026-08-24":"P","smufe3tpk0hg9e|2026-08-25":"P","smufe3tpk0hg9e|2026-08-27":"A","smufe3tpk0hg9e|2026-08-29":"P","smufe3tpk0hg9e|2026-08-31":"P","smufe3tpk8kkqx|2026-08-01":"P","smufe3tpk8kkqx|2026-08-03":"P","smufe3tpk8kkqx|2026-08-04":"P","smufe3tpk8kkqx|2026-08-05":"P","smufe3tpk8kkqx|2026-08-06":"P","smufe3tpk8kkqx|2026-08-07":"P","smufe3tpk8kkqx|2026-08-08":"A","smufe3tpk8kkqx|2026-08-10":"P","smufe3tpk8kkqx|2026-08-11":"P","smufe3tpk8kkqx|2026-08-12":"P","smufe3tpk8kkqx|2026-08-13":"P","smufe3tpk8kkqx|2026-08-14":"P","smufe3tpk8kkqx|2026-08-15":"A","smufe3tpk8kkqx|2026-08-17":"P","smufe3tpk8kkqx|2026-08-18":"P","smufe3tpk8kkqx|2026-08-19":"P","smufe3tpk8kkqx|2026-08-20":"P","smufe3tpk8kkqx|2026-08-21":"P","smufe3tpk8kkqx|2026-08-22":"P","smufe3tpk8kkqx|2026-08-24":"P","smufe3tpk8kkqx|2026-08-25":"A","smufe3tpk8kkqx|2026-08-27":"P","smufe3tpk8kkqx|2026-08-29":"P","smufe3tpk8kkqx|2026-08-31":"A","smufe3tpk9dlj0|2026-08-01":"A","smufe3tpk9dlj0|2026-08-03":"A","smufe3tpk9dlj0|2026-08-04":"P","smufe3tpk9dlj0|2026-08-05":"P","smufe3tpk9dlj0|2026-08-06":"A","smufe3tpk9dlj0|2026-08-07":"P","smufe3tpk9dlj0|2026-08-08":"P","smufe3tpk9dlj0|2026-08-10":"P","smufe3tpk9dlj0|2026-08-11":"P","smufe3tpk9dlj0|2026-08-12":"P","smufe3tpk9dlj0|2026-08-13":"P","smufe3tpk9dlj0|2026-08-14":"P","smufe3tpk9dlj0|2026-08-15":"A","smufe3tpk9dlj0|2026-08-17":"P","smufe3tpk9dlj0|2026-08-18":"P","smufe3tpk9dlj0|2026-08-19":"P","smufe3tpk9dlj0|2026-08-20":"P","smufe3tpk9dlj0|2026-08-21":"P","smufe3tpk9dlj0|2026-08-22":"P","smufe3tpk9dlj0|2026-08-24":"P","smufe3tpk9dlj0|2026-08-25":"P","smufe3tpk9dlj0|2026-08-27":"P","smufe3tpk9dlj0|2026-08-29":"P","smufe3tpk9dlj0|2026-08-31":"P","smufe3tpkk3e35|2026-08-01":"A","smufe3tpkk3e35|2026-08-03":"P","smufe3tpkk3e35|2026-08-04":"P","smufe3tpkk3e35|2026-08-05":"P","smufe3tpkk3e35|2026-08-06":"P","smufe3tpkk3e35|2026-08-07":"A","smufe3tpkk3e35|2026-08-08":"P","smufe3tpkk3e35|2026-08-10":"P","smufe3tpkk3e35|2026-08-11":"P","smufe3tpkk3e35|2026-08-12":"A","smufe3tpkk3e35|2026-08-13":"P","smufe3tpkk3e35|2026-08-14":"P","smufe3tpkk3e35|2026-08-15":"A","smufe3tpkk3e35|2026-08-17":"P","smufe3tpkk3e35|2026-08-18":"P","smufe3tpkk3e35|2026-08-19":"P","smufe3tpkk3e35|2026-08-20":"P","smufe3tpkk3e35|2026-08-21":"P","smufe3tpkk3e35|2026-08-22":"P","smufe3tpkk3e35|2026-08-24":"A","smufe3tpkk3e35|2026-08-25":"P","smufe3tpkk3e35|2026-08-27":"P","smufe3tpkk3e35|2026-08-29":"P","smufe3tpkk3e35|2026-08-31":"P","smufe3tpk29awl|2026-08-01":"A","smufe3tpk29awl|2026-08-03":"A","smufe3tpk29awl|2026-08-04":"P","smufe3tpk29awl|2026-08-05":"P","smufe3tpk29awl|2026-08-06":"P","smufe3tpk29awl|2026-08-07":"P","smufe3tpk29awl|2026-08-08":"P","smufe3tpk29awl|2026-08-10":"P","smufe3tpk29awl|2026-08-11":"P","smufe3tpk29awl|2026-08-12":"P","smufe3tpk29awl|2026-08-13":"A","smufe3tpk29awl|2026-08-14":"P","smufe3tpk29awl|2026-08-15":"A","smufe3tpk29awl|2026-08-17":"P","smufe3tpk29awl|2026-08-18":"P","smufe3tpk29awl|2026-08-19":"P","smufe3tpk29awl|2026-08-20":"P","smufe3tpk29awl|2026-08-21":"P","smufe3tpk29awl|2026-08-22":"P","smufe3tpk29awl|2026-08-24":"A","smufe3tpk29awl|2026-08-25":"P","smufe3tpk29awl|2026-08-27":"P","smufe3tpk29awl|2026-08-29":"A","smufe3tpk29awl|2026-08-31":"A","smufe3tpkyco31|2026-09-01":"P","smufe3tpkyco31|2026-09-02":"P","smufe3tpkyco31|2026-09-03":"P","smufe3tpkyco31|2026-09-05":"P","smufe3tpkyco31|2026-09-07":"P","smufe3tpkyco31|2026-09-08":"P","smufe3tpkyco31|2026-09-09":"P","smufe3tpkyco31|2026-09-11":"P","smufe3tpkyco31|2026-09-12":"P","smufe3tpkyco31|2026-09-15":"P","smufe3tpkyco31|2026-09-16":"P","smufe3tpkyco31|2026-09-17":"P","smufe3tpkyco31|2026-09-18":"P","smufe3tpkyco31|2026-09-21":"P","smufe3tpkyco31|2026-09-22":"P","smufe3tpkyco31|2026-09-23":"P","smufe3tpkyco31|2026-09-24":"P","smufe3tpkyco31|2026-09-26":"P","smufe3tpkyco31|2026-09-28":"P","smufe3tpkyco31|2026-09-29":"P","smufe3tpkyco31|2026-09-30":"P","smufe3tpkn6214|2026-09-01":"P","smufe3tpkn6214|2026-09-02":"P","smufe3tpkn6214|2026-09-03":"P","smufe3tpkn6214|2026-09-05":"P","smufe3tpkn6214|2026-09-07":"P","smufe3tpkn6214|2026-09-08":"P","smufe3tpkn6214|2026-09-09":"P","smufe3tpkn6214|2026-09-11":"P","smufe3tpkn6214|2026-09-12":"P","smufe3tpkn6214|2026-09-15":"P","smufe3tpkn6214|2026-09-16":"P","smufe3tpkn6214|2026-09-17":"P","smufe3tpkn6214|2026-09-18":"P","smufe3tpkn6214|2026-09-21":"P","smufe3tpkn6214|2026-09-22":"P","smufe3tpkn6214|2026-09-23":"P","smufe3tpkn6214|2026-09-24":"P","smufe3tpkn6214|2026-09-26":"P","smufe3tpkn6214|2026-09-28":"P","smufe3tpkn6214|2026-09-29":"P","smufe3tpkn6214|2026-09-30":"P","smufe3tpkh2pym|2026-09-01":"P","smufe3tpkh2pym|2026-09-02":"P","smufe3tpkh2pym|2026-09-03":"P","smufe3tpkh2pym|2026-09-05":"P","smufe3tpkh2pym|2026-09-07":"P","smufe3tpkh2pym|2026-09-08":"P","smufe3tpkh2pym|2026-09-09":"P","smufe3tpkh2pym|2026-09-11":"P","smufe3tpkh2pym|2026-09-12":"P","smufe3tpkh2pym|2026-09-15":"P","smufe3tpkh2pym|2026-09-16":"P","smufe3tpkh2pym|2026-09-17":"P","smufe3tpkh2pym|2026-09-18":"P","smufe3tpkh2pym|2026-09-21":"P","smufe3tpkh2pym|2026-09-22":"P","smufe3tpkh2pym|2026-09-23":"P","smufe3tpkh2pym|2026-09-24":"P","smufe3tpkh2pym|2026-09-26":"P","smufe3tpkh2pym|2026-09-28":"P","smufe3tpkh2pym|2026-09-29":"P","smufe3tpkh2pym|2026-09-30":"P","smufe3tpk0hg9e|2026-09-01":"P","smufe3tpk0hg9e|2026-09-02":"P","smufe3tpk0hg9e|2026-09-03":"P","smufe3tpk0hg9e|2026-09-05":"P","smufe3tpk0hg9e|2026-09-07":"P","smufe3tpk0hg9e|2026-09-08":"P","smufe3tpk0hg9e|2026-09-09":"P","smufe3tpk0hg9e|2026-09-11":"P","smufe3tpk0hg9e|2026-09-12":"P","smufe3tpk0hg9e|2026-09-15":"P","smufe3tpk0hg9e|2026-09-16":"P","smufe3tpk0hg9e|2026-09-17":"P","smufe3tpk0hg9e|2026-09-18":"P","smufe3tpk0hg9e|2026-09-21":"P","smufe3tpk0hg9e|2026-09-22":"P","smufe3tpk0hg9e|2026-09-23":"P","smufe3tpk0hg9e|2026-09-24":"P","smufe3tpk0hg9e|2026-09-26":"P","smufe3tpk0hg9e|2026-09-28":"P","smufe3tpk0hg9e|2026-09-29":"P","smufe3tpk0hg9e|2026-09-30":"P","smufe3tpk8kkqx|2026-09-01":"A","smufe3tpk8kkqx|2026-09-02":"P","smufe3tpk8kkqx|2026-09-03":"P","smufe3tpk8kkqx|2026-09-05":"P","smufe3tpk8kkqx|2026-09-07":"P","smufe3tpk8kkqx|2026-09-08":"P","smufe3tpk8kkqx|2026-09-09":"P","smufe3tpk8kkqx|2026-09-11":"P","smufe3tpk8kkqx|2026-09-12":"P","smufe3tpk8kkqx|2026-09-15":"P","smufe3tpk8kkqx|2026-09-16":"P","smufe3tpk8kkqx|2026-09-17":"P","smufe3tpk8kkqx|2026-09-18":"P","smufe3tpk8kkqx|2026-09-21":"P","smufe3tpk8kkqx|2026-09-22":"P","smufe3tpk8kkqx|2026-09-23":"P","smufe3tpk8kkqx|2026-09-24":"P","smufe3tpk8kkqx|2026-09-26":"A","smufe3tpk8kkqx|2026-09-28":"P","smufe3tpk8kkqx|2026-09-29":"P","smufe3tpk8kkqx|2026-09-30":"P","smufe3tpk9dlj0|2026-09-01":"P","smufe3tpk9dlj0|2026-09-02":"P","smufe3tpk9dlj0|2026-09-03":"P","smufe3tpk9dlj0|2026-09-05":"P","smufe3tpk9dlj0|2026-09-07":"P","smufe3tpk9dlj0|2026-09-08":"P","smufe3tpk9dlj0|2026-09-09":"P","smufe3tpk9dlj0|2026-09-11":"P","smufe3tpk9dlj0|2026-09-12":"P","smufe3tpk9dlj0|2026-09-15":"P","smufe3tpk9dlj0|2026-09-16":"A","smufe3tpk9dlj0|2026-09-17":"A","smufe3tpk9dlj0|2026-09-18":"P","smufe3tpk9dlj0|2026-09-21":"A","smufe3tpk9dlj0|2026-09-22":"P","smufe3tpk9dlj0|2026-09-23":"A","smufe3tpk9dlj0|2026-09-24":"P","smufe3tpk9dlj0|2026-09-26":"A","smufe3tpk9dlj0|2026-09-28":"P","smufe3tpk9dlj0|2026-09-29":"P","smufe3tpk9dlj0|2026-09-30":"P","smufe3tpkk3e35|2026-09-01":"P","smufe3tpkk3e35|2026-09-02":"P","smufe3tpkk3e35|2026-09-03":"P","smufe3tpkk3e35|2026-09-05":"A","smufe3tpkk3e35|2026-09-07":"P","smufe3tpkk3e35|2026-09-08":"P","smufe3tpkk3e35|2026-09-09":"P","smufe3tpkk3e35|2026-09-11":"P","smufe3tpkk3e35|2026-09-12":"A","smufe3tpkk3e35|2026-09-15":"P","smufe3tpkk3e35|2026-09-16":"A","smufe3tpkk3e35|2026-09-17":"P","smufe3tpkk3e35|2026-09-18":"P","smufe3tpkk3e35|2026-09-21":"P","smufe3tpkk3e35|2026-09-22":"P","smufe3tpkk3e35|2026-09-23":"A","smufe3tpkk3e35|2026-09-24":"A","smufe3tpkk3e35|2026-09-26":"A","smufe3tpkk3e35|2026-09-28":"P","smufe3tpkk3e35|2026-09-29":"P","smufe3tpkk3e35|2026-09-30":"P","smufe3tpk29awl|2026-09-01":"P","smufe3tpk29awl|2026-09-02":"P","smufe3tpk29awl|2026-09-03":"P","smufe3tpk29awl|2026-09-05":"A","smufe3tpk29awl|2026-09-07":"P","smufe3tpk29awl|2026-09-08":"P","smufe3tpk29awl|2026-09-09":"P","smufe3tpk29awl|2026-09-11":"A","smufe3tpk29awl|2026-09-12":"A","smufe3tpk29awl|2026-09-15":"A","smufe3tpk29awl|2026-09-16":"A","smufe3tpk29awl|2026-09-17":"P","smufe3tpk29awl|2026-09-18":"P","smufe3tpk29awl|2026-09-21":"P","smufe3tpk29awl|2026-09-22":"P","smufe3tpk29awl|2026-09-23":"P","smufe3tpk29awl|2026-09-24":"A","smufe3tpk29awl|2026-09-26":"A","smufe3tpk29awl|2026-09-28":"P","smufe3tpk29awl|2026-09-29":"P","smufe3tpk29awl|2026-09-30":"P","smufe3tpkyco31|2026-10-01":"P","smufe3tpkyco31|2026-10-03":"P","smufe3tpkn6214|2026-10-01":"P","smufe3tpkn6214|2026-10-03":"P","smufe3tpkh2pym|2026-10-01":"P","smufe3tpkh2pym|2026-10-03":"P","smufe3tpk0hg9e|2026-10-01":"P","smufe3tpk0hg9e|2026-10-03":"P","smufe3tpk8kkqx|2026-10-01":"P","smufe3tpk8kkqx|2026-10-03":"P","smufe3tpk9dlj0|2026-10-01":"P","smufe3tpk9dlj0|2026-10-03":"P","smufe3tpkk3e35|2026-10-01":"P","smufe3tpkk3e35|2026-10-03":"P","smufe3tpk29awl|2026-10-01":"P","smufe3tpk29awl|2026-10-03":"A"}},{"id":"clsmuserio7v6mr3","name":"XII-A","password":"1234","students":[],"attendance":{}}],"lastModified":1791033483720}</script>
+<style>
+:root{--bg:#eef2f9;--card:#fff;--line:#e2e8f0;--text:#1e293b;--muted:#64748b;--primary:#4f46e5;--primary-d:#4338ca;--green:#16a34a;--red:#dc2626;--amber:#f59e0b;--radius:12px}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;background:var(--bg);color:var(--text);font-size:14px}
+h1,h2,h3{margin:0}
+button{font-family:inherit}
+input[type=color]{padding:2px;height:38px;cursor:pointer}
+[hidden]{display:none!important}
+.tab-panel{display:none}
+.tab-panel.active{display:block;animation:fade .18s ease}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+.login-screen{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#4338ca,#6d28d9 55%,#7c3aed);z-index:1000;padding:18px}
+.login-card{background:#fff;border-radius:18px;padding:32px 28px;width:420px;max-width:100%;box-shadow:0 30px 80px rgba(0,0,0,.35);text-align:center}
+.login-logo{font-size:46px;line-height:1;margin-bottom:6px}
+.login-card h1{font-size:19px;font-weight:800;color:#0f172a;margin:0 0 2px}
+.login-credit{font-size:11.5px;font-weight:700;color:#7c3aed;letter-spacing:.5px;margin:0 0 20px}
+.login-tabs{display:flex;gap:4px;background:#f1f5f9;border-radius:11px;padding:4px;margin-bottom:18px}
+.login-tabs button{flex:1;border:0;background:transparent;padding:10px 6px;border-radius:8px;font-size:13px;font-weight:700;cursor:pointer;color:#64748b;transition:.15s}
+.login-tabs button.active{background:#fff;color:#4f46e5;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.login-card .lf{text-align:left;margin-bottom:14px}
+.login-card .lf label{display:block;font-size:12px;font-weight:700;color:#475569;margin-bottom:5px}
+.login-card .lf input,.login-card .lf select{width:100%;border:1px solid var(--line);border-radius:9px;padding:11px 13px;font-size:14px;font-family:inherit;background:#fff;color:var(--text)}
+.login-card .lf input:focus,.login-card .lf select:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(79,70,229,.15)}
+.login-err{background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;padding:9px 12px;border-radius:8px;font-size:12.5px;font-weight:600;margin-bottom:12px;text-align:left}
+.app-header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:10px 20px;background:linear-gradient(100deg,#4338ca,#6d28d9 55%,#7c3aed);color:#fff;position:sticky;top:0;z-index:60;box-shadow:0 2px 14px rgba(30,41,59,.18)}
+.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.logo{font-size:26px;line-height:1}
+.app-header h1{font-size:16.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:340px}
+.app-header p{margin:2px 0 0;font-size:11.5px;opacity:.8}
+.credit{font-size:11.5px;font-weight:700;color:#fde68a;letter-spacing:.5px;margin:3px 0 0!important;opacity:1!important}
+.hdr-actions{display:flex;gap:7px;flex-wrap:wrap;align-items:center}
+.hdr-class{display:flex;align-items:center;gap:7px;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.28);border-radius:9px;padding:5px 10px}
+.hdr-class label{font-size:11px;font-weight:700;opacity:.9;white-space:nowrap}
+.hdr-class select{background:transparent;border:0;color:#fff;font-family:inherit;font-size:13px;font-weight:700;outline:none;cursor:pointer;padding:2px 0}
+.hdr-class select option{color:#0f172a;background:#fff}
+.role-badge{font-size:11px;font-weight:800;padding:4px 10px;border-radius:20px;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.35);letter-spacing:.3px;white-space:nowrap}
+.role-badge.master{background:#fde68a;color:#78350f;border-color:#fcd34d}
+.save-state{font-size:11.5px;font-weight:700;padding:5px 11px;border-radius:20px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);white-space:nowrap}
+.save-state.dirty{background:#fef3c7;color:#92400e;border-color:#fcd34d}
+.layout{display:flex;min-height:calc(100vh - 58px)}
+.sidebar{width:236px;flex-shrink:0;background:#fff;border-right:1px solid var(--line);padding:12px 10px;position:sticky;top:58px;height:calc(100vh - 58px);overflow-y:auto}
+.sidebar .nav-btn{display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:0;background:transparent;padding:11px 14px;border-radius:9px;font-size:13.5px;font-weight:600;color:#475569;cursor:pointer;margin-bottom:2px;transition:.15s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sidebar .nav-btn:hover{background:#f1f5f9;color:#0f172a}
+.sidebar .nav-btn.active{background:#eef2ff;color:#4338ca}
+.sidebar .nav-btn .ic{font-size:16px;width:20px;text-align:center;flex-shrink:0}
+.sidebar .section-title{font-size:10.5px;font-weight:800;color:#94a3b8;text-transform:uppercase;letter-spacing:.9px;padding:14px 14px 6px}
+.sidebar .logout-btn{color:#dc2626;margin-top:8px}
+.sidebar .logout-btn:hover{background:#fef2f2;color:#b91c1c}
+main{flex:1;padding:18px;min-width:0;max-width:100%}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;margin-bottom:16px;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+.card h2{font-size:14.5px;font-weight:700;color:#0f172a;margin-bottom:12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.card h2::before{content:"";width:4px;height:16px;border-radius:3px;background:var(--primary)}
+.hint{color:var(--muted);font-size:12.5px;margin:0 0 12px;line-height:1.55}
+.banner{background:#eef2ff;border:1px solid #c7d2fe;color:#3730a3;border-radius:10px;padding:10px 14px;font-size:12.5px;font-weight:600;margin-bottom:12px}
+.banner.warn{background:#fffbeb;border-color:#fcd34d;color:#92400e}
+.banner.ok{background:#f0fdf4;border-color:#86efac;color:#166534}
+.banner.danger{background:#fef2f2;border-color:#fecaca;color:#991b1b}
+.btn{border:1px solid var(--line);background:#fff;color:var(--text);padding:8px 13px;border-radius:9px;cursor:pointer;font-size:12.5px;font-weight:600;transition:.15s;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.btn:hover{background:#f8fafc;border-color:#cbd5e1}
+.btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
+.btn.primary:hover{background:var(--primary-d)}
+.btn.ghost{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.32);color:#fff}
+.btn.ghost:hover{background:rgba(255,255,255,.28)}
+.btn.danger{color:var(--red);border-color:#fecaca}
+.btn.danger:hover{background:#fef2f2}
+.btn-xs{border:1px solid var(--line);background:#fff;border-radius:7px;padding:4px 9px;font-size:11.5px;cursor:pointer;font-weight:600;color:var(--muted)}
+.btn-xs:hover{background:#f1f5f9;color:var(--text)}
+.btn-xs.danger{color:var(--red);border-color:#fecaca}
+.btn-xs.danger:hover{background:#fef2f2}
+.btn-xs.primary{color:#fff;background:var(--primary);border-color:var(--primary)}
+.btn-xs.primary:hover{background:var(--primary-d)}
+.btn-xs.green{color:#15803d;border-color:#bbf7d0}
+.btn-xs.green:hover{background:#f0fdf4}
+.btn-row{display:flex;gap:10px;flex-wrap:wrap}
+.spacer{flex:1}
+.grid-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.field{display:flex;flex-direction:column;gap:5px;font-size:12px;font-weight:600;color:#475569}
+.field input,.field select,.field textarea{border:1px solid var(--line);border-radius:9px;padding:9px 11px;font-size:13.5px;font-family:inherit;background:#fff;color:var(--text);width:100%}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(79,70,229,.12)}
+.field.wide{grid-column:1/-1}
+.form-actions{grid-column:1/-1;display:flex;gap:10px;margin-top:4px;flex-wrap:wrap}
+.toolbar{display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap;margin-bottom:12px}
+.toolbar label{display:flex;flex-direction:column;gap:5px;font-size:11.5px;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.4px}
+.toolbar input,.toolbar select{border:1px solid var(--line);border-radius:9px;padding:8px 10px;font-size:13px;font-family:inherit;background:#fff;color:var(--text)}
+.toolbar input:focus,.toolbar select:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(79,70,229,.12)}
+.chk{flex-direction:row!important;align-items:center;gap:7px;text-transform:none;letter-spacing:0;font-size:12.5px;font-weight:600}
+.chk input{width:15px;height:15px;accent-color:var(--primary)}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px;max-height:560px}
+.table-wrap.tall{max-height:640px}
+table{border-collapse:separate;border-spacing:0;width:100%}
+.data-table{font-size:13px}
+.data-table th{background:#f8fafc;color:#475569;font-weight:700;font-size:11.5px;text-transform:uppercase;letter-spacing:.4px;padding:10px;text-align:left;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:2;white-space:nowrap}
+.data-table td{padding:9px 10px;border-bottom:1px solid #f1f5f9;vertical-align:top}
+.data-table tbody tr:hover{background:#fafbff}
+.data-table tbody tr:last-child td{border-bottom:0}
+.nowrap{white-space:nowrap}
+.empty{text-align:center;color:var(--muted);padding:26px 10px!important;font-style:italic}
+.num{text-align:center;font-variant-numeric:tabular-nums}
+.strong{font-weight:700;color:#0f172a}
+.sub{font-size:10.5px;color:var(--muted);font-weight:500;margin-top:2px}
+.house-badge{display:inline-flex;align-items:center;gap:6px;padding:3px 10px 3px 7px;border-radius:20px;font-size:11.5px;font-weight:700;border:1px solid}
+.house-badge i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.gender-badge{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11px;font-weight:700}
+.gender-badge.M{background:#dbeafe;color:#1d4ed8}
+.gender-badge.F{background:#fce7f3;color:#9d174d}
+.left-badge{display:inline-block;padding:2px 9px;border-radius:20px;font-size:10.5px;font-weight:700;background:#fee2e2;color:#b91c1c;margin-left:6px}
+.reg-table{font-size:12px;min-width:100%}
+.reg-table th,.reg-table td{border-right:1px solid #eef2f7;border-bottom:1px solid #eef2f7;text-align:center;padding:0;height:32px;min-width:32px}
+.reg-table thead th{background:#f8fafc;color:#475569;font-weight:700;font-size:11px;padding:6px 3px;position:sticky;top:0;z-index:3}
+.reg-table thead th.off{background:repeating-linear-gradient(45deg,#fef3c7,#fef3c7 4px,#fde68a 4px,#fde68a 8px);color:#b45309}
+.reg-table thead th.hol{background:repeating-linear-gradient(45deg,#fee2e2,#fee2e2 4px,#fecaca 4px,#fecaca 8px);color:#b91c1c}
+.reg-table thead th.outsess{background:repeating-linear-gradient(45deg,#e2e8f0,#e2e8f0 4px,#cbd5e1 4px,#cbd5e1 8px);color:#475569}
+.reg-table th.sticky-col,.reg-table td.sticky-col{position:sticky;left:0;text-align:left;padding:5px 12px;min-width:180px;z-index:2;border-right:1px solid var(--line)}
+.reg-table thead th.sticky-col{background:#f1f5f9;z-index:5}
+.reg-table td.sticky-col{background:#fff}
+.reg-table tbody tr:hover td.sticky-col{background:#fafbff}
+.reg-table th.tot{background:#eef2ff;color:#4338ca;min-width:48px}
+.reg-table th.wdcol{background:#f5f3ff;color:#6d28d9;min-width:44px}
+.reg-table td.tot{background:#f8faff;font-weight:700;font-variant-numeric:tabular-nums;min-width:48px}
+.reg-table td.wdcell{background:#faf5ff;font-weight:700;color:#6d28d9;font-variant-numeric:tabular-nums}
+.reg-table tfoot td{font-weight:700;padding:6px 4px;border-top:1px solid var(--line);font-variant-numeric:tabular-nums;font-size:11.5px}
+.reg-table tfoot tr.boys td{background:#eff6ff;color:#1e40af}
+.reg-table tfoot tr.girls td{background:#fdf2f8;color:#9d174d}
+.reg-table tfoot tr.total td{background:#f0fdf4;color:#166534;border-top:2px solid #86efac}
+.reg-table tfoot tr.wdrow td{background:#f5f3ff;color:#5b21b6;border-top:2px solid #c4b5fd}
+.reg-table tfoot td.sticky-col{text-align:left;padding-left:12px;position:sticky;left:0;z-index:4}
+.att-cell{cursor:pointer;user-select:none;font-weight:700;transition:.1s;font-size:11.5px}
+.att-cell:hover{outline:2px solid var(--primary);outline-offset:-2px}
+.att-cell:empty{background:#f8fafc}
+.att-cell:empty:hover{background:#e0e7ff}
+.att-cell.P{background:#dcfce7;color:#15803d}
+.att-cell.A{background:#fee2e2;color:#b91c1c}
+.att-cell.H{cursor:not-allowed;font-weight:600;color:#b45309;background:repeating-linear-gradient(45deg,#fef3c7,#fef3c7 4px,#fde68a 4px,#fde68a 8px)}
+.reg-table tbody td.att-cell.hol{cursor:not-allowed;font-weight:600;color:#b91c1c;background:repeating-linear-gradient(45deg,#fee2e2,#fee2e2 4px,#fecaca 4px,#fecaca 8px)}
+.att-cell.NA{cursor:not-allowed;font-weight:500;color:#cbd5e1;background:repeating-linear-gradient(45deg,#f8fafc,#f8fafc 3px,#eef2f7 3px,#eef2f7 6px)}
+.att-cell.OS{cursor:not-allowed;font-weight:700;color:#64748b;background:repeating-linear-gradient(45deg,#e2e8f0,#e2e8f0 4px,#cbd5e1 4px,#cbd5e1 8px)}
+.att-cell.H:hover,.reg-table tbody td.att-cell.hol:hover,.att-cell.NA:hover,.att-cell.OS:hover{outline:none}
+.legend{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:10px;font-size:12px;color:var(--muted)}
+.legend .dot{display:inline-block;width:14px;height:14px;border-radius:4px;margin-right:5px;vertical-align:-2px}
+.dot.p{background:#dcfce7;border:1px solid #86efac}
+.dot.a{background:#fee2e2;border:1px solid #fca5a5}
+.dot.blank{background:#f8fafc;border:1px solid #cbd5e1}
+.dot.sun{background:repeating-linear-gradient(45deg,#fef3c7,#fef3c7 3px,#fde68a 3px,#fde68a 6px);border:1px solid #fcd34d}
+.dot.hol{background:repeating-linear-gradient(45deg,#fee2e2,#fee2e2 3px,#fecaca 3px,#fecaca 6px);border:1px solid #fca5a5}
+.dot.na{background:repeating-linear-gradient(45deg,#f8fafc,#f8fafc 3px,#eef2f7 3px,#eef2f7 6px);border:1px solid #cbd5e1}
+.dot.os{background:repeating-linear-gradient(45deg,#e2e8f0,#e2e8f0 3px,#cbd5e1 3px,#cbd5e1 6px);border:1px solid #94a3b8}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;align-items:center}
+.chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:#fff;padding:6px 12px;border-radius:20px;font-size:12.5px;font-weight:600;cursor:pointer;color:#475569;user-select:none}
+.chip:hover{border-color:#c7d2fe;background:#f5f3ff}
+.chip input{accent-color:var(--primary);width:14px;height:14px;cursor:pointer}
+.chip-actions{display:flex;gap:6px;margin-left:4px}
+.tag{padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700}
+.tag.Festival{background:#fef3c7;color:#92400e}
+.tag.National{background:#dbeafe;color:#1d4ed8}
+.tag.Other{background:#e2e8f0;color:#475569}
+.stat-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.stat{flex:1;min-width:135px;background:#f8fafc;border:1px solid var(--line);border-radius:11px;padding:11px 13px}
+.stat .v{font-size:20px;font-weight:800;color:#0f172a;font-variant-numeric:tabular-nums}
+.stat .l{font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.4px;margin-top:2px}
+.stat.warn .v{color:var(--red)}
+.stat.ok .v{color:var(--green)}
+.stat.blue .v{color:var(--blue)}
+.stat.pink .v{color:var(--pink)}
+.stat.amber .v{color:var(--amber)}
+.stat.purple .v{color:#6d28d9}
+.stat.purple{background:#faf5ff;border-color:#e9d5ff}
+.bar{height:6px;background:#e2e8f0;border-radius:4px;overflow:hidden;margin-top:6px;min-width:90px}
+.bar > i{display:block;height:100%;border-radius:4px;background:var(--green)}
+.bar.mid > i{background:var(--amber)}
+.bar.low > i{background:var(--red)}
+.pill{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11px;font-weight:700}
+.pill.ok{background:#dcfce7;color:#15803d}
+.pill.warn{background:#fef3c7;color:#92400e}
+.pill.bad{background:#fee2e2;color:#b91c1c}
+.toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#0f172a;color:#fff;padding:12px 22px;border-radius:11px;font-size:13.5px;font-weight:600;box-shadow:0 12px 34px rgba(15,23,42,.4);z-index:9999;transition:.28s;max-width:88vw;text-align:center}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.toast.ok{background:#15803d}
+.toast.err{background:#b91c1c}
+.toast.warn{background:#b45309}
+.cls-active-row{background:#eef2ff!important}
+.cls-active-row td{background:#eef2ff!important}
+.guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px}
+.guide-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.guide-card h3{font-size:14px;font-weight:800;color:#0f172a;margin:0 0 10px;display:flex;align-items:center;gap:8px}
+.guide-card h3 .num{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--primary);color:#fff;font-size:12px;font-weight:800}
+.guide-card ol,.guide-card ul{margin:0;padding-left:20px;font-size:13px;line-height:1.7;color:#334155}
+.guide-card li{margin-bottom:6px}
+.guide-card p{font-size:13px;line-height:1.6;color:#334155;margin:6px 0}
+.guide-card kbd{background:#f1f5f9;border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;padding:1px 6px;font-size:11.5px;font-family:inherit;font-weight:700;color:#334155}
+.guide-card .hl{background:#eef2ff;color:#3730a3;padding:1px 6px;border-radius:5px;font-weight:700;font-size:12px}
+.guide-tip{background:#fffbeb;border-left:3px solid #f59e0b;padding:9px 13px;border-radius:0 8px 8px 0;font-size:12.5px;color:#78350f;margin-top:10px}
+.guide-tip.warn{background:#fef2f2;border-left-color:#dc2626;color:#7f1d1d}
+.guide-tip.ok{background:#f0fdf4;border-left-color:#16a34a;color:#14532d}
+@media (max-width:820px){
+  .layout{flex-direction:column}
+  .sidebar{width:100%;height:auto;position:sticky;top:58px;display:flex;flex-wrap:nowrap;gap:4px;overflow-x:auto;padding:8px;z-index:55;border-right:0;border-bottom:1px solid var(--line)}
+  .sidebar .nav-btn{width:auto;white-space:nowrap;margin:0;padding:9px 12px;font-size:12.5px}
+  .sidebar .section-title{display:none}
+  .sidebar .logout-btn{margin-top:0;border-radius:9px}
+  main{padding:12px}
+  .reg-table th.sticky-col,.reg-table td.sticky-col{min-width:130px}
+  .app-header h1{max-width:200px;font-size:14px}
+}
+</style>
+</head>
+<body>
+
+<div id="loginScreen" class="login-screen">
+  <div class="login-card">
+    <div class="login-logo">🎓</div>
+    <h1>School Attendance Manager</h1>
+    <p class="login-credit">Made by Dinesh Soni</p>
+    <div class="login-tabs">
+      <button type="button" data-lt="master" class="active">👑 Master</button>
+      <button type="button" data-lt="class">👨‍🏫 Class</button>
+    </div>
+    <form id="loginForm" autocomplete="off">
+      <div class="lf" id="classSelectWrap" hidden="">
+        <label>Select Class</label>
+        <select id="loginClassSelect"></select>
+      </div>
+      <div class="lf">
+        <label>Password</label>
+        <input type="password" id="loginPwd" placeholder="Enter password" autocomplete="off" required="">
+      </div>
+      <div id="loginErr" class="login-err" hidden=""></div>
+      <button type="submit" class="btn primary" style="width:100%;justify-content:center;padding:11px">🔓 Login</button>
+    </form>
+  </div>
+</div>
+
+<div id="app" hidden="">
+<header class="app-header">
+  <div class="brand">
+    <span class="logo">🎓</span>
+    <div>
+      <h1 id="hdrSchool">School Attendance Manager</h1>
+      <p class="credit">Made by Dinesh Soni</p>
+      <p id="hdrSub">Student records &amp; attendance register</p>
+    </div>
+  </div>
+  <div class="hdr-actions">
+    <span class="role-badge" id="roleBadge">—</span>
+    <div class="hdr-class" id="hdrClassWrap" hidden="">
+      <label>Class:</label>
+      <select id="hdrClassSelect"></select>
+    </div>
+    <span class="save-state" id="saveState">✓ Saved in file</span>
+    <button class="btn primary" id="btnSaveFile">💾 Save</button>
+    <button class="btn ghost" id="btnBackup">⬇ Backup</button>
+    <button class="btn ghost" id="btnRestore">⬆ Restore</button>
+  </div>
+</header>
+
+<input type="file" id="restoreInput" accept=".json" hidden="">
+<input type="file" id="fileInput" accept=".xlsx,.xls,.csv" hidden="">
+
+<div class="layout">
+  <nav class="sidebar" id="sidebar"></nav>
+  <main id="mainContent">
+
+    <section class="tab-panel" id="tab-school">
+      <div class="card">
+        <h2>School Details</h2>
+        <p class="hint">Fill these once. Applies to all classes.</p>
+        <div class="grid-form">
+          <label class="field wide">School Name
+            <input id="schoolName" placeholder="School name">
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Session / Academic Year</h2>
+        <p class="hint">Working days and all percentages are calculated only within these dates. Shared by all classes.</p>
+        <div class="grid-form">
+          <label class="field" style="max-width:280px">Session Name
+            <input id="sessionName" placeholder="e.g. 2026-27">
+          </label>
+          <label class="field" style="max-width:220px">Session Start Date
+            <input id="sessionStart" type="date">
+          </label>
+          <label class="field" style="max-width:220px">Session End Date
+            <input id="sessionEnd" type="date">
+          </label>
+          <div class="form-actions">
+            <button type="button" class="btn" id="btnSessionThisYear">📅 Current Academic Year (Apr–Mar)</button>
+            <button type="button" class="btn" id="btnSessionCalendarYear">📅 Current Calendar Year (Jan–Dec)</button>
+            <button type="button" class="btn" id="btnSessionClear">Clear Session</button>
+          </div>
+        </div>
+        <div id="sessionStatus" class="banner" style="margin-top:14px;display:none"></div>
+      </div>
+      <div class="card">
+        <h2>🔑 Change Master Password</h2>
+        <p class="hint">Only the master can change this.</p>
+        <form id="masterPwdForm" class="grid-form" autocomplete="off">
+          <label class="field">Current Master Password
+            <input type="password" id="mp_old" autocomplete="off">
+          </label>
+          <label class="field">New Master Password
+            <input type="password" id="mp_new" autocomplete="new-password">
+          </label>
+          <label class="field">Confirm New Password
+            <input type="password" id="mp_new2" autocomplete="new-password">
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">🔑 Update Master Password</button>
+          </div>
+        </form>
+      </div>
+      <div class="card">
+        <h2>Add House</h2>
+        <p class="hint">Define houses for your school. Shared by all classes.</p>
+        <form id="houseForm" class="grid-form" autocomplete="off">
+          <label class="field">House Name <span style="color:#dc2626">*</span>
+            <input id="hname" placeholder="House name" required="">
+          </label>
+          <label class="field" style="max-width:150px">Colour
+            <input id="hcolor" type="color" value="#4f46e5">
+          </label>
+          <div class="form-actions">
+            <button type="button" class="btn primary" id="btnAddHouse">➕ Add House</button>
+          </div>
+        </form>
+      </div>
+      <div class="card">
+        <h2>House List <span id="houseCount" style="font-weight:500;color:var(--muted);font-size:12px"></span></h2>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead><tr><th>#</th><th>House</th><th>Students</th><th>Action</th></tr></thead>
+            <tbody id="houseTbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tab-classes">
+      <div class="card">
+        <h2>Add New Class</h2>
+        <p class="hint">Each class gets its own login. A default password will be assigned which you can reset later.</p>
+        <form id="classForm" class="grid-form" autocomplete="off">
+          <label class="field">Class Name <span style="color:#dc2626">*</span>
+            <input id="c_name" placeholder="e.g. XI-C / Class 5-A" required="">
+          </label>
+          <label class="field">Password <span style="color:#94a3b8;font-weight:500">(optional)</span>
+            <input type="password" id="c_pwd" placeholder="Leave blank for default password" autocomplete="new-password">
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">➕ Add Class</button>
+          </div>
+        </form>
+      </div>
+      <div class="card">
+        <h2>Classes <span id="classCount" style="font-weight:500;color:var(--muted);font-size:12px"></span></h2>
+        <p class="hint">Passwords are never displayed. Use <b>Reset Password</b> to set a new one.</p>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead><tr>
+              <th>#</th><th>Class</th><th>Students</th><th>Active</th><th>Action</th>
+            </tr></thead>
+            <tbody id="classTbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tab-myclass">
+      <div class="card">
+        <h2>My Class</h2>
+        <div id="myClassInfo"></div>
+      </div>
+      <div class="card">
+        <h2>🔑 Change My Class Password</h2>
+        <p class="hint">Change the password used to log in to <b>this class</b>.</p>
+        <form id="myPwdForm" class="grid-form" autocomplete="off">
+          <label class="field">Current Password
+            <input type="password" id="cp_old" autocomplete="off">
+          </label>
+          <label class="field">New Password
+            <input type="password" id="cp_new" autocomplete="new-password">
+          </label>
+          <label class="field">Confirm New Password
+            <input type="password" id="cp_new2" autocomplete="new-password">
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">🔑 Update Class Password</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tab-entry">
+      <div id="entryClassBanner" class="banner warn" style="display:none">
+        ⚠ Please select a class from the header dropdown to continue.
+      </div>
+      <div class="card">
+        <h2>Bulk Import — Excel <span class="sub" style="font-weight:500">(for <b id="importClsName">—</b>)</span></h2>
+        <p class="hint">Download the template, fill it in Excel, then upload.</p>
+        <div class="btn-row">
+          <button class="btn primary" id="btnTemplate">⬇ Download Excel Template</button>
+          <button class="btn" id="btnUpload">⬆ Upload Filled Excel</button>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Add / Edit Student <span class="sub" style="font-weight:500">(in <b id="formClsName">—</b>)</span></h2>
+        <form id="studentForm" class="grid-form" autocomplete="off">
+          <input type="hidden" id="editId">
+          <label class="field">Name of Student <span style="color:#dc2626">*</span>
+            <input id="f_name" placeholder="Full name" required="">
+          </label>
+          <label class="field">Gender
+            <select id="f_gender">
+              <option value="">— Select Gender —</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+          </label>
+          <label class="field">Section
+            <input id="f_sec" list="secDatalist" placeholder="e.g. A">
+          </label>
+          <label class="field">Date of Birth
+            <input id="f_dob" type="date">
+          </label>
+          <label class="field">Father's Name
+            <input id="f_father" placeholder="Father's full name">
+          </label>
+          <label class="field">Mother's Name
+            <input id="f_mother" placeholder="Mother's full name">
+          </label>
+          <label class="field">House
+            <select id="f_house"></select>
+          </label>
+          <label class="field">Contact No. 1 (Parent)
+            <input id="f_c1" placeholder="10-digit mobile">
+          </label>
+          <label class="field">Contact No. 2 (Parent)
+            <input id="f_c2" placeholder="10-digit mobile">
+          </label>
+          <label class="field wide">Address
+            <input id="f_addr" placeholder="Residential address">
+          </label>
+          <label class="field">Admission Date
+            <input id="f_admit" type="date">
+          </label>
+          <label class="field">Left Date <span style="color:#94a3b8;font-weight:500">(optional)</span>
+            <input id="f_left" type="date">
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn primary" id="btnSaveStudent">💾 Save Student</button>
+            <button type="button" class="btn" id="btnClearForm">Clear</button>
+          </div>
+        </form>
+        <datalist id="secDatalist"></datalist>
+      </div>
+      <div class="card">
+        <h2>Student List <span id="studentCount" style="font-weight:500;color:var(--muted);font-size:12px"></span></h2>
+        <div class="toolbar">
+          <label>Section <select id="fltSec"></select></label>
+          <label>Gender
+            <select id="fltGender">
+              <option value="">All</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Unspecified">Unspecified</option>
+            </select>
+          </label>
+          <label>House <select id="fltHouse"></select></label>
+          <label class="chk"><input type="checkbox" id="fltLeft"> Show students who have left</label>
+          <label style="flex:1;min-width:200px">Search
+            <input id="fltSearch" placeholder="Name / parent / house / phone…">
+          </label>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>#</th><th>Name</th><th>Gender</th><th>Sec</th><th>House</th>
+                <th>DOB</th><th>Father</th><th>Mother</th>
+                <th>Contact Nos.</th><th>Admitted</th><th>Left</th><th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="studentTbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tab-register">
+      <div class="card">
+        <h2>Attendance Register <span class="sub" style="font-weight:500">(for <b id="regClsName">—</b>)</span></h2>
+        <div class="toolbar">
+          <label>Section <select id="regSec"></select></label>
+          <label>Month <input type="month" id="regMonth"></label>
+          <label class="chk"><input type="checkbox" id="regSunday"> Sundays are holidays</label>
+          <div class="spacer"></div>
+          <button class="btn" id="btnAllP">✅ Mark all Present</button>
+          <button class="btn danger" id="btnClearMonth">🗑 Clear Month</button>
+        </div>
+        <div id="regStatus" class="banner" style="display:none"></div>
+        <div class="legend">
+          <span><i class="dot blank"></i><b>White cells</b> = clickable</span>
+          <span><i class="dot p"></i><b>P</b> = Present</span>
+          <span><i class="dot a"></i><b>A</b> = Absent</span>
+          <span><i class="dot sun"></i><b>Sunday</b></span>
+          <span><i class="dot hol"></i><b>Holiday</b></span>
+          <span><i class="dot na"></i><b>Not enrolled</b></span>
+          <span><i class="dot os"></i><b>Outside session</b></span>
+          <span class="hint" style="margin:0">Click a cell to cycle <b>blank → P → A → blank</b></span>
+        </div>
+        <div class="stat-row" id="regSummary"></div>
+        <div class="table-wrap tall" id="regWrap">
+          <table class="reg-table" id="regTable"></table>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tab-holiday">
+      <div class="card" id="holidayAddCard">
+        <h2>Add Holiday</h2>
+        <form id="holidayForm" class="grid-form" autocomplete="off">
+          <label class="field">Date <span style="color:#dc2626">*</span>
+            <input type="date" id="h_date" required="">
+          </label>
+          <label class="field">Reason of Holiday <span style="color:#dc2626">*</span>
+            <input id="h_reason" placeholder="e.g. Diwali / Republic Day" required="">
+          </label>
+          <label class="field">Type
+            <select id="h_type">
+              <option value="Festival">Festival</option>
+              <option value="National">National Holiday</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+          <div class="form-actions">
+            <button type="button" class="btn primary" id="btnAddHoliday">➕ Add Holiday</button>
+          </div>
+        </form>
+        <p class="hint" style="margin-top:12px">Holidays apply to all classes and clear any attendance on that date.</p>
+      </div>
+      <div class="card" id="holidayViewOnlyCard" hidden="">
+        <h2>Holidays (View Only)</h2>
+        <p class="hint">Only the master can add or remove holidays. Holidays apply to all classes.</p>
+      </div>
+      <div class="card">
+        <h2>Holiday List <span id="holidayCount" style="font-weight:500;color:var(--muted);font-size:12px"></span></h2>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead><tr><th>Date</th><th>Day</th><th>Reason</th><th>Type</th><th>Action</th></tr></thead>
+            <tbody id="holidayTbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tab-summary">
+      <div class="card">
+        <h2>Monthly Summary <span class="sub" style="font-weight:500">(for <b id="sumClsName">—</b>)</span></h2>
+        <div class="toolbar">
+          <label>Section <select id="sumSec"></select></label>
+        </div>
+        <p class="hint">Tick months to see every student's % side by side.</p>
+        <div class="chips" id="sumMonths"></div>
+        <div class="table-wrap" id="sumWrap"></div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tab-low">
+      <div class="card">
+        <h2>Low Attendance <span class="sub" style="font-weight:500">(for <b id="lowClsName">—</b>)</span></h2>
+        <div class="toolbar">
+          <label>Section <select id="lowSec"></select></label>
+          <label>From Month <input type="month" id="lowFrom"></label>
+          <label>To Month <input type="month" id="lowTo"></label>
+          <label>Below (%) <input type="number" id="lowThr" value="75" min="0" max="100" step="1" style="width:80px"></label>
+          <button class="btn primary" id="btnApplyLow">🔍 Show</button>
+        </div>
+        <div id="lowResult"></div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tab-consolidated">
+      <div class="card">
+        <h2>Consolidated Report — All Classes</h2>
+        <p class="hint">Month-wise attendance for every class side by side.</p>
+        <div class="chips" id="consMonths"></div>
+        <div class="table-wrap" id="consWrap"></div>
+      </div>
+      <div class="card">
+        <h2>Class Comparison — Overall</h2>
+        <div id="consOverall"></div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tab-help">
+      <div class="card">
+        <h2>📖 How to Use</h2>
+        <p class="hint">This app runs entirely in your browser. All data stays in this HTML file. Multiple classes with separate logins are supported.</p>
+      </div>
+      <div class="guide-grid">
+        <div class="guide-card">
+          <h3><span class="num">1</span> Logging In</h3>
+          <p>There are two login types. Ask your school administrator if you don't have your login details.</p>
+          <ul>
+            <li><b>👑 Master</b> — full access to all classes.</li>
+            <li><b>👨‍🏫 Class</b> — pick your class and log in.</li>
+          </ul>
+        </div>
+        <div class="guide-card">
+          <h3><span class="num">2</span> Creating Classes (Master)</h3>
+          <p>Go to <b>Classes</b> tab. Type a name, optionally set a password, click <kbd>➕ Add Class</kbd>.</p>
+          <p>Actions per class: <kbd>Login</kbd>, <kbd>Rename</kbd>, <kbd>Reset Password</kbd>, <kbd>Delete</kbd>.</p>
+          <div class="guide-tip warn">⚠ Passwords are never shown on screen. Reset Password sets a new one.</div>
+        </div>
+        <div class="guide-card">
+          <h3><span class="num">3</span> School &amp; Session (Master)</h3>
+          <p>Type the school name, set session dates, add houses. Session is shared by all classes.</p>
+        </div>
+        <div class="guide-card">
+          <h3><span class="num">4</span> Adding Students</h3>
+          <p>Master: pick a class from the header dropdown. Class login: your class is already active.</p>
+        </div>
+        <div class="guide-card">
+          <h3><span class="num">5</span> Attendance Register</h3>
+          <p>Choose section and month, click a white cell to cycle <span class="hl">blank → P → A → blank</span>.</p>
+        </div>
+        <div class="guide-card">
+          <h3><span class="num">6</span> Colour Codes</h3>
+          <ul>
+            <li>🟢 <b>P</b> — Present</li>
+            <li>🔴 <b>A</b> — Absent</li>
+            <li>🟨 <b>Sunday</b> — locked</li>
+            <li>🟥 <b>Holiday</b> — locked</li>
+            <li>⬜ <b>Grey</b> — Not enrolled / outside session</li>
+          </ul>
+        </div>
+        <div class="guide-card">
+          <h3><span class="num">7</span> Reports</h3>
+          <ul>
+            <li><b>Monthly Summary</b> — every student's % for picked months</li>
+            <li><b>Low Attendance</b> — students below a threshold</li>
+            <li><b>Consolidated (Master)</b> — all classes side by side</li>
+          </ul>
+        </div>
+        <div class="guide-card">
+          <h3><span class="num">8</span> Saving &amp; Backup</h3>
+          <ul>
+            <li><kbd>💾 Save</kbd> — write data back into the HTML file</li>
+            <li><kbd>⬇ Backup</kbd> — download a JSON backup</li>
+            <li><kbd>⬆ Restore</kbd> — reload data from a backup</li>
+          </ul>
+        </div>
+        <div class="guide-card">
+          <h3><span class="num">9</span> Students Who Leave</h3>
+          <p>Don't delete — click <kbd>Left</kbd> and enter the last date. Click <kbd>Restore</kbd> to bring them back.</p>
+        </div>
+        <div class="guide-card">
+          <h3><span class="num">10</span> Troubleshooting</h3>
+          <ul>
+            <li>No students in register? Check the month and section filter.</li>
+            <li>Can't click cells? Check the month is within session and after admission date.</li>
+            <li>Forgot a class password? Master can reset it from Classes.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+</div>
+
+<script>
+var dataEl = document.getElementById('appData');
+var PLACEHOLDER = '__APP_DATA_' + Math.random().toString(36).slice(2) + '__';
+var _origAppData = dataEl.textContent;
+dataEl.textContent = PLACEHOLDER;
+var PRISTINE_HTML = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+dataEl.textContent = _origAppData;
+
+function $(s){ return document.querySelector(s); }
+function $$(s){ return Array.prototype.slice.call(document.querySelectorAll(s)); }
+function pad(n){ return String(n).padStart(2,'0'); }
+function uid(p){ return (p||'s') + Date.now().toString(36) + Math.random().toString(36).slice(2,7); }
+function esc(v){ return String(v == null ? '' : v).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+function dk(y,m,d){ return y + '-' + pad(m) + '-' + pad(d); }
+function daysInMonth(y,m){ return new Date(y,m,0).getDate(); }
+function monthLabel(mo){ var p = mo.split('-').map(Number); return new Date(p[0], p[1]-1, 1).toLocaleDateString('en-GB', { month:'short', year:'numeric' }); }
+function fmtDate(d){ return new Date(d+'T00:00:00').toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'}); }
+function dayName(d){ return new Date(d+'T00:00:00').toLocaleDateString('en-GB',{weekday:'short'}); }
+function todayStr(){ var n = new Date(); return dk(n.getFullYear(), n.getMonth()+1, n.getDate()); }
+function monthRange(mo){ var p = mo.split('-').map(Number); return { from: dk(p[0],p[1],1), to: dk(p[0],p[1],daysInMonth(p[0],p[1])) }; }
+function isValidISODate(s){ return /^\d{4}-\d{2}-\d{2}$/.test(String(s||'')); }
+
+var MASTER_DEFAULT = 'Svkm@1812';
+var CLASS_DEFAULT_PWD = '123';
+var DEFAULT_HOUSE_COLORS = ['#4f46e5','#0891b2','#16a34a','#d97706','#dc2626','#7c3aed','#db2777','#0d9488'];
+
+function normaliseDate(v){
+  if (v == null) return '';
+  var s = String(v).trim();
+  if (!s) return '';
+  if (/^\d{4,6}(\.\d+)?$/.test(s)) {
+    var n = parseFloat(s);
+    if (n > 0 && n < 100000) {
+      var ms = Math.round(n * 86400000) + Date.UTC(1899,11,30);
+      var d = new Date(ms);
+      if (!isNaN(d.getTime())) return dk(d.getUTCFullYear(), d.getUTCMonth()+1, d.getUTCDate());
+    }
+  }
+  if (isValidISODate(s)) return s;
+  var m = s.match(/^(\d{4})[\/\.\-](\d{1,2})[\/\.\-](\d{1,2})/);
+  if (m) { var y=+m[1], mm=+m[2], dd=+m[3]; if (mm>=1 && mm<=12 && dd>=1 && dd<=31) return y+'-'+pad(mm)+'-'+pad(dd); }
+  m = s.match(/^(\d{1,2})[\/\.\-](\d{1,2})[\/\.\-](\d{2,4})/);
+  if (m) {
+    var a=+m[1], b=+m[2], yy=+m[3];
+    if (yy<100) yy += yy<50 ? 2000 : 1900;
+    var DD, MM;
+    if (a>12 && b<=12) { DD=a; MM=b; } else if (b>12 && a<=12) { DD=b; MM=a; } else { DD=a; MM=b; }
+    if (MM>=1 && MM<=12 && DD>=1 && DD<=31) return yy+'-'+pad(MM)+'-'+pad(DD);
+  }
+  var dt = new Date(s);
+  if (!isNaN(dt.getTime())) return dk(dt.getFullYear(), dt.getMonth()+1, dt.getDate());
+  return '';
+}
+
+function toast(msg, type){
+  var t = document.createElement('div');
+  t.className = 'toast ' + (type||'');
+  t.textContent = msg;
+  document.body.appendChild(t);
+  requestAnimationFrame(function(){ t.classList.add('show'); });
+  setTimeout(function(){ t.classList.remove('show'); setTimeout(function(){ t.remove(); }, 320); }, 3200);
+}
+
+function currentFileName(){
+  try { var p = location.pathname.split('/').pop(); return p ? decodeURIComponent(p) : 'School_Attendance.html'; }
+  catch(e){ return 'School_Attendance.html'; }
+}
+var THIS_FILENAME = currentFileName();
+
+var EMBEDDED = {};
+try { EMBEDDED = JSON.parse(_origAppData || '{}') || {}; } catch(e){ EMBEDDED = {}; }
+if (!EMBEDDED.fileId) EMBEDDED.fileId = 'SVKM-MASTER-0001';
+
+var LS_KEY = 'svkm_att_v10__' + EMBEDDED.fileId + '__' + THIS_FILENAME;
+var SS_KEY = 'svkm_session_v10__' + EMBEDDED.fileId + '__' + THIS_FILENAME;
+
+var DB = null;
+var dirty = false;
+var editingId = null;
+var sumSelected = {};
+var sumInitialised = false;
+var consSelected = {};
+var consInitialised = false;
+var IDX = null;
+var regState = { list: [], y: 0, m: 0, days: 0 };
+var state = { role: null, activeClassId: null, currentTab: 'school' };
+
+function blankDB(fileId){
+  return {
+    fileId: fileId || 'f' + Date.now().toString(36) + Math.random().toString(36).slice(2,8),
+    masterPassword: MASTER_DEFAULT,
+    school: '', session: { name:'', start:'', end:'' },
+    holidays: [], houses: [], settings: { sundayHoliday: true },
+    classes: [], lastModified: 0
+  };
+}
+
+function normaliseStudent(s){
+  if (!s) return null;
+  return {
+    id: s.id || uid(), name: s.name || '',
+    gender: (s.gender === 'Male' || s.gender === 'Female') ? s.gender : '',
+    sec: s.sec || '', dob: normaliseDate(s.dob) || '',
+    father: s.father || '', mother: s.mother || '', house: s.house || '',
+    c1: s.c1 || '', c2: s.c2 || '', address: s.address || '',
+    admitDate: normaliseDate(s.admitDate) || '', leftDate: normaliseDate(s.leftDate) || ''
+  };
+}
+
+function normaliseClass(c){
+  return {
+    id: (c && c.id) || uid('cls'),
+    name: String((c && c.name) || 'Class').trim() || 'Class',
+    password: (c && typeof c.password === 'string' && c.password) ? c.password : CLASS_DEFAULT_PWD,
+    students: (c && Array.isArray(c.students)) ? c.students.map(normaliseStudent).filter(Boolean) : [],
+    attendance: (c && typeof c.attendance === 'object' && c.attendance) ? c.attendance : {}
+  };
+}
+
+function normaliseDB(d){
+  var b = blankDB();
+  if (!d) return b;
+  if (Array.isArray(d.students) && !Array.isArray(d.classes)) {
+    var legacyStudents = d.students.map(normaliseStudent).filter(Boolean);
+    var clsName = d.cls ? ('Class ' + String(d.cls)) : 'Default Class';
+    return {
+      fileId: d.fileId || b.fileId,
+      masterPassword: d.masterPassword || MASTER_DEFAULT,
+      school: d.school || '',
+      session: { name: (d.session && d.session.name) || '', start: normaliseDate(d.session && d.session.start) || '', end: normaliseDate(d.session && d.session.end) || '' },
+      holidays: Array.isArray(d.holidays) ? d.holidays : [],
+      houses: Array.isArray(d.houses) ? d.houses.filter(function(h){ return h && h.name; }) : [],
+      settings: Object.assign({ sundayHoliday: true }, d.settings || {}),
+      classes: [{ id: uid('cls'), name: clsName, password: CLASS_DEFAULT_PWD, students: legacyStudents, attendance: d.attendance || {} }],
+      lastModified: d.lastModified || 0
+    };
+  }
+  return {
+    fileId: d.fileId || b.fileId,
+    masterPassword: d.masterPassword || MASTER_DEFAULT,
+    school: d.school || '',
+    session: { name: (d.session && d.session.name) || '', start: normaliseDate(d.session && d.session.start) || '', end: normaliseDate(d.session && d.session.end) || '' },
+    holidays: Array.isArray(d.holidays) ? d.holidays : [],
+    houses: Array.isArray(d.houses) ? d.houses.filter(function(h){ return h && h.name; }) : [],
+    settings: Object.assign({ sundayHoliday: true }, d.settings || {}),
+    classes: Array.isArray(d.classes) ? d.classes.map(normaliseClass) : [],
+    lastModified: d.lastModified || 0
+  };
+}
+
+function loadDB(){
+  var emb = normaliseDB(EMBEDDED);
+  var local = null;
+  try { var raw = localStorage.getItem(LS_KEY); if (raw) local = normaliseDB(JSON.parse(raw)); } catch(e){}
+  if (local && (local.lastModified || 0) > (emb.lastModified || 0)) { DB = local; dirty = true; }
+  else { DB = emb; dirty = false; }
+  syncHousesFromAllClasses();
+}
+
+function persist(){
+  DB.lastModified = Date.now();
+  dirty = true;
+  try { localStorage.setItem(LS_KEY, JSON.stringify(DB)); } catch(e){}
+  updateDirtyUI();
+}
+
+function updateDirtyUI(){
+  var el = $('#saveState');
+  if (!el) return;
+  if (dirty) { el.textContent = '● Unsaved changes'; el.className = 'save-state dirty'; }
+  else { el.textContent = '✓ Saved in file'; el.className = 'save-state'; }
+}
+
+function activeClass(){
+  if (!state.activeClassId) return null;
+  return DB.classes.find(function(c){ return c.id === state.activeClassId; }) || null;
+}
+function students(){ var c = activeClass(); return c ? c.students : []; }
+function attRef(){ var c = activeClass(); if (!c) return null; if (!c.attendance) c.attendance = {}; return c.attendance; }
+
+function updateHeaderTitle(){
+  var parts = [DB.school || 'School Attendance Manager'];
+  if (activeClass()) parts.push('Class ' + activeClass().name);
+  if (DB.session && DB.session.name) parts.push('· ' + DB.session.name);
+  $('#hdrSchool').textContent = parts.join(' — ');
+  var rb = $('#roleBadge');
+  if (rb) {
+    if (state.role === 'master') { rb.textContent = '👑 MASTER'; rb.className = 'role-badge master'; }
+    else { rb.textContent = '👨‍🏫 CLASS'; rb.className = 'role-badge'; }
+  }
+  var hcw = $('#hdrClassWrap');
+  if (hcw) {
+    if (state.role === 'master' && DB.classes.length) {
+      hcw.hidden = false;
+      var sel = $('#hdrClassSelect');
+      sel.innerHTML = DB.classes.map(function(c){ return '<option value="'+esc(c.id)+'">'+esc(c.name)+'</option>'; }).join('');
+      if (state.activeClassId) sel.value = state.activeClassId;
+    } else { hcw.hidden = true; }
+  }
+}
+
+function buildHtml(db){
+  var json = JSON.stringify(db).replace(/</g, '\\u003c');
+  return PRISTINE_HTML.replace(PLACEHOLDER, function(){ return json; });
+}
+
+function saveToFile(){
+  var html = buildHtml(DB);
+  var fname = THIS_FILENAME || 'School_Attendance.html';
+  var blob = new Blob([html], { type: 'text/html' });
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = fname;
+  a.click();
+  setTimeout(function(){ URL.revokeObjectURL(a.href); }, 4000);
+  dirty = false; updateDirtyUI();
+  toast('File downloaded. Replace your old file with this one.', 'ok');
+}
+
+function sessStart(){ return (DB.session && DB.session.start) || ''; }
+function sessEnd(){ return (DB.session && DB.session.end) || ''; }
+function hasSession(){ return !!(sessStart() || sessEnd()); }
+function inSession(dateStr){
+  var s = sessStart(), e = sessEnd();
+  if (s && dateStr < s) return false;
+  if (e && dateStr > e) return false;
+  return true;
+}
+function countWorkingDays(from, to){
+  if (!from || !to || from > to) return 0;
+  var lo = from, hi = to;
+  var s = sessStart(), e = sessEnd();
+  if (s && lo < s) lo = s;
+  if (e && hi > e) hi = e;
+  if (lo > hi) return 0;
+  var holSet = {}; DB.holidays.forEach(function(h){ holSet[h.date] = true; });
+  var sunday = DB.settings.sundayHoliday;
+  var n = 0;
+  var d = new Date(lo + 'T00:00:00');
+  var end = new Date(hi + 'T00:00:00');
+  while (d <= end) {
+    var ds = dk(d.getFullYear(), d.getMonth()+1, d.getDate());
+    if (!(sunday && d.getDay() === 0) && !holSet[ds]) n++;
+    d.setDate(d.getDate() + 1);
+  }
+  return n;
+}
+function workingDaysForStudent(s, from, to){
+  if (!s) return 0;
+  var lo = from, hi = to;
+  var ss = sessStart(), se = sessEnd();
+  if (ss && (!lo || lo < ss)) lo = ss;
+  if (se && (!hi || hi > se)) hi = se;
+  if (s.admitDate && isValidISODate(s.admitDate) && (!lo || lo < s.admitDate)) lo = s.admitDate;
+  if (s.leftDate && isValidISODate(s.leftDate) && (!hi || hi > s.leftDate)) hi = s.leftDate;
+  return countWorkingDays(lo, hi);
+}
+function holidayInfo(ds){ return DB.holidays.find(function(h){ return h.date === ds; }); }
+function isSunday(ds){ return new Date(ds + 'T00:00:00').getDay() === 0; }
+function isNonWorking(ds){ return !!holidayInfo(ds) || (DB.settings.sundayHoliday && isSunday(ds)); }
+function isActiveOn(s, dateStr){
+  if (!inSession(dateStr)) return false;
+  var adm = isValidISODate(s.admitDate) ? s.admitDate : '';
+  var left = isValidISODate(s.leftDate) ? s.leftDate : '';
+  if (adm && dateStr < adm) return false;
+  if (left && dateStr > left) return false;
+  return true;
+}
+function hasLeft(s){ return isValidISODate(s && s.leftDate); }
+function overlapsMonth(s, from, to){
+  var adm = isValidISODate(s.admitDate) ? s.admitDate : '';
+  var left = isValidISODate(s.leftDate) ? s.leftDate : '';
+  if (adm && adm > to) return false;
+  if (left && left < from) return false;
+  return true;
+}
+
+function invalidate(){ IDX = null; }
+function buildIndex(){
+  var hol = {}; DB.holidays.forEach(function(h){ hol[h.date] = true; });
+  var sunday = DB.settings.sundayHoliday;
+  var idx = {};
+  var att = attRef();
+  if (!att) return idx;
+  for (var key in att) {
+    var i = key.indexOf('|');
+    if (i < 0) continue;
+    var sid = key.slice(0, i);
+    var d = key.slice(i + 1);
+    if (!inSession(d)) continue;
+    if (hol[d]) continue;
+    if (sunday && new Date(d + 'T00:00:00').getDay() === 0) continue;
+    var v = att[key];
+    if (v !== 'P' && v !== 'A') continue;
+    if (!idx[sid]) idx[sid] = {};
+    idx[sid][d] = v;
+  }
+  return idx;
+}
+function index(){ return IDX || (IDX = buildIndex()); }
+
+function getStats(s, fromDate, toDate){
+  var days = index()[s.id] || {};
+  var adm = isValidISODate(s.admitDate) ? s.admitDate : '';
+  var left = isValidISODate(s.leftDate) ? s.leftDate : '';
+  var p = 0, a = 0;
+  for (var d in days) {
+    if (adm && d < adm) continue;
+    if (left && d > left) continue;
+    if (fromDate && d < fromDate) continue;
+    if (toDate && d > toDate) continue;
+    if (days[d] === 'P') p++; else if (days[d] === 'A') a++;
+  }
+  var wd = workingDaysForStudent(s, fromDate, toDate);
+  return { p: p, a: a, wd: wd, t: p+a, pct: wd ? (p*100/wd) : 0 };
+}
+function getStatsForClass(cls, s, fromDate, toDate){
+  var att = cls.attendance || {};
+  var hol = {}; DB.holidays.forEach(function(h){ hol[h.date] = true; });
+  var sunday = DB.settings.sundayHoliday;
+  var adm = isValidISODate(s.admitDate) ? s.admitDate : '';
+  var left = isValidISODate(s.leftDate) ? s.leftDate : '';
+  var p = 0, a = 0;
+  var prefix = s.id + '|';
+  for (var key in att) {
+    if (key.indexOf(prefix) !== 0) continue;
+    var d = key.slice(prefix.length);
+    if (!inSession(d)) continue;
+    if (hol[d]) continue;
+    if (sunday && new Date(d + 'T00:00:00').getDay() === 0) continue;
+    if (adm && d < adm) continue;
+    if (left && d > left) continue;
+    if (fromDate && d < fromDate) continue;
+    if (toDate && d > toDate) continue;
+    var v = att[key];
+    if (v === 'P') p++; else if (v === 'A') a++;
+  }
+  var lo = fromDate, hi = toDate;
+  var ss = sessStart(), se = sessEnd();
+  if (ss && (!lo || lo < ss)) lo = ss;
+  if (se && (!hi || hi > se)) hi = se;
+  if (adm && (!lo || lo < adm)) lo = adm;
+  if (left && (!hi || hi > left)) hi = left;
+  var wd = countWorkingDays(lo, hi);
+  return { p: p, a: a, wd: wd, t: p+a, pct: wd ? (p*100/wd) : 0 };
+}
+
+function cmpNum(a,b){ return String(a).localeCompare(String(b), undefined, { numeric: true }); }
+function sectionList(){
+  var set = {};
+  students().forEach(function(s){ if (s.sec) set[s.sec] = true; });
+  return Object.keys(set).sort(cmpNum);
+}
+function houseNames(){ return DB.houses.map(function(h){ return h.name; }).sort(); }
+function houseColor(name){ var h = DB.houses.find(function(x){ return x.name === name; }); return h ? h.color : '#64748b'; }
+function studentsFiltered(sec, house, includeLeft){
+  return students().filter(function(s){
+    if (sec && s.sec !== sec) return false;
+    if (house && s.house !== house) return false;
+    if (!includeLeft && hasLeft(s)) return false;
+    return true;
+  }).sort(function(a,b){ return cmpNum(a.sec||'', b.sec||'') || String(a.name||'').localeCompare(String(b.name||'')); });
+}
+function setOptions(sel, values, allLabel){
+  if (!sel) return;
+  var prev = sel.value;
+  sel.innerHTML = '<option value="">' + esc(allLabel) + '</option>' +
+    values.map(function(v){ return '<option value="'+esc(v)+'">'+esc(v)+'</option>'; }).join('');
+  if (values.indexOf(prev) >= 0) sel.value = prev;
+}
+function ensureHouse(name){
+  name = String(name || '').trim();
+  if (!name) return false;
+  if (!Array.isArray(DB.houses)) DB.houses = [];
+  var exists = DB.houses.some(function(h){ return String(h.name||'').toLowerCase() === name.toLowerCase(); });
+  if (exists) return false;
+  DB.houses.push({ id: uid(), name: name, color: DEFAULT_HOUSE_COLORS[DB.houses.length % DEFAULT_HOUSE_COLORS.length] });
+  return true;
+}
+function syncHousesFromAllClasses(){
+  DB.classes.forEach(function(c){ c.students.forEach(function(s){ if (s.house) ensureHouse(s.house); }); });
+}
+function availableMonths(){
+  var s = sessStart(), e = sessEnd();
+  var min = null;
+  var att = attRef() || {};
+  for (var k in att) {
+    var d = k.slice(k.indexOf('|') + 1);
+    if (!min || d < min) min = d;
+  }
+  students().forEach(function(st){
+    if (isValidISODate(st.admitDate)) { if (!min || st.admitDate < min) min = st.admitDate; }
+  });
+  var now = new Date();
+  var start;
+  if (s) start = new Date(s.slice(0,4), Number(s.slice(5,7))-1, 1);
+  else if (min) start = new Date(min.slice(0,4), Number(min.slice(5,7))-1, 1);
+  else start = new Date(now.getFullYear(), now.getMonth(), 1);
+  var end;
+  if (e) end = new Date(e.slice(0,4), Number(e.slice(5,7))-1, 1);
+  else end = new Date(now.getFullYear(), now.getMonth(), 1);
+  var out = [];
+  var cur = new Date(start);
+  while (cur <= end) {
+    out.push(cur.getFullYear() + '-' + pad(cur.getMonth()+1));
+    cur.setMonth(cur.getMonth() + 1);
+  }
+  return out;
+}
+function defaultRegisterMonth(){
+  var now = new Date();
+  var cur = now.getFullYear() + '-' + pad(now.getMonth()+1);
+  if (!hasSession()) return cur;
+  var s = sessStart(), e = sessEnd();
+  if (s && cur < s.slice(0,7)) return s.slice(0,7);
+  if (e && cur > e.slice(0,7)) return e.slice(0,7);
+  return cur;
+}
+function suggestMonthWithStudents(){
+  var now = new Date();
+  var cur = now.getFullYear() + '-' + pad(now.getMonth()+1);
+  var candidates = [];
+  students().forEach(function(s){
+    if (isValidISODate(s.admitDate)) candidates.push(s.admitDate.slice(0,7));
+    if (isValidISODate(s.leftDate)) candidates.push(s.leftDate.slice(0,7));
+  });
+  if (candidates.length) {
+    if (candidates.indexOf(cur) >= 0) return cur;
+    candidates.sort();
+    var best = candidates[0];
+    var bestDiff = Infinity;
+    candidates.forEach(function(c){
+      var p = c.split('-').map(Number);
+      var q = cur.split('-').map(Number);
+      var diff = Math.abs((p[0]-q[0])*12 + (p[1]-q[1]));
+      if (diff < bestDiff) { bestDiff = diff; best = c; }
+    });
+    return best;
+  }
+  return cur;
+}
+
+function login(role, classId, password){
+  if (role === 'master') {
+    if (password !== DB.masterPassword) return 'Incorrect master password.';
+    state.role = 'master';
+    state.activeClassId = DB.classes[0] ? DB.classes[0].id : null;
+  } else {
+    var cls = DB.classes.find(function(c){ return c.id === classId; });
+    if (!cls) return 'Please select a class.';
+    if (password !== cls.password) return 'Incorrect class password.';
+    state.role = 'class';
+    state.activeClassId = cls.id;
+  }
+  try { sessionStorage.setItem(SS_KEY, JSON.stringify({ role: state.role, classId: state.activeClassId })); } catch(e){}
+  return null;
+}
+function restoreSession(){
+  try {
+    var raw = sessionStorage.getItem(SS_KEY);
+    if (!raw) return false;
+    var s = JSON.parse(raw);
+    if (!s || !s.role) return false;
+    if (s.role === 'master') {
+      state.role = 'master';
+      var found = DB.classes.find(function(c){ return c.id === s.classId; });
+      state.activeClassId = found ? found.id : (DB.classes[0] ? DB.classes[0].id : null);
+      return true;
+    } else {
+      var cls = DB.classes.find(function(c){ return c.id === s.classId; });
+      if (!cls) return false;
+      state.role = 'class';
+      state.activeClassId = cls.id;
+      return true;
+    }
+  } catch(e){ return false; }
+}
+function logout(){
+  state.role = null; state.activeClassId = null;
+  try { sessionStorage.removeItem(SS_KEY); } catch(e){}
+  var ls = $('#loginScreen');
+  ls.hidden = false; ls.style.display = 'flex';
+  $('#app').hidden = true;
+  $('#loginPwd').value = '';
+  $('#loginErr').hidden = true;
+}
+function showApp(){
+  var ls = $('#loginScreen');
+  ls.hidden = true; ls.style.display = 'none';
+  $('#app').hidden = false;
+  renderSidebar();
+  renderAll();
+  if (state.role === 'class') switchTab('myclass');
+  else switchTab('school');
+}
+
+function tabsForRole(){
+  if (state.role === 'master') {
+    return [
+      { sec: 'Setup' },
+      { id: 'school', icon: '🏫', label: 'School & Session' },
+      { id: 'classes', icon: '🎓', label: 'Classes' },
+      { sec: 'Class Data' },
+      { id: 'entry', icon: '👥', label: 'Basic Data Entry' },
+      { id: 'register', icon: '📋', label: 'Attendance Register' },
+      { sec: 'Reports' },
+      { id: 'summary', icon: '📊', label: 'Monthly Summary' },
+      { id: 'low', icon: '⚠', label: 'Low Attendance' },
+      { id: 'consolidated', icon: '📈', label: 'Consolidated Report' },
+      { sec: 'Other' },
+      { id: 'holiday', icon: '🎉', label: 'Holidays' },
+      { id: 'help', icon: '📖', label: 'How to Use' }
+    ];
+  }
+  return [
+    { sec: 'My Class' },
+    { id: 'myclass', icon: '👤', label: 'My Class & Password' },
+    { id: 'entry', icon: '👥', label: 'Basic Data Entry' },
+    { id: 'register', icon: '📋', label: 'Attendance Register' },
+    { sec: 'Reports' },
+    { id: 'summary', icon: '📊', label: 'Monthly Summary' },
+    { id: 'low', icon: '⚠', label: 'Low Attendance' },
+    { sec: 'Other' },
+    { id: 'holiday', icon: '🎉', label: 'Holidays' },
+    { id: 'help', icon: '📖', label: 'How to Use' }
+  ];
+}
+
+function renderSidebar(){
+  var nav = $('#sidebar');
+  if (!nav) return;
+  var tabs = tabsForRole();
+  var html = '';
+  tabs.forEach(function(t){
+    if (t.sec) { html += '<div class="section-title">' + esc(t.sec) + '</div>'; return; }
+    var active = state.currentTab === t.id ? ' active' : '';
+    html += '<button class="nav-btn' + active + '" data-tab="' + t.id + '"><span class="ic">' + t.icon + '</span><span>' + esc(t.label) + '</span></button>';
+  });
+  html += '<button class="nav-btn logout-btn" id="btnLogout"><span class="ic">🔓</span><span>Logout</span></button>';
+  nav.innerHTML = html;
+  nav.querySelectorAll('.nav-btn[data-tab]').forEach(function(btn){
+    btn.addEventListener('click', function(){ switchTab(btn.dataset.tab); });
+  });
+  var lo = nav.querySelector('#btnLogout');
+  if (lo) lo.addEventListener('click', function(){
+    if (dirty && !confirm('You have unsaved changes. Logout anyway?')) return;
+    logout();
+  });
+}
+
+function switchTab(tabId){
+  state.currentTab = tabId;
+  $$('#mainContent .tab-panel').forEach(function(p){ p.classList.remove('active'); });
+  var el = $('#tab-' + tabId);
+  if (el) el.classList.add('active');
+  $$('#sidebar .nav-btn[data-tab]').forEach(function(b){
+    if (b.dataset.tab === tabId) b.classList.add('active');
+    else b.classList.remove('active');
+  });
+  if (tabId === 'school') { renderHouses(); refreshSchoolStatus(); }
+  if (tabId === 'classes') renderClasses();
+  if (tabId === 'myclass') renderMyClass();
+  if (tabId === 'entry') renderStudents();
+  if (tabId === 'register') renderRegister();
+  if (tabId === 'summary') renderSummary();
+  if (tabId === 'low') renderLow();
+  if (tabId === 'consolidated') renderConsolidated();
+  if (tabId === 'holiday') renderHolidays();
+}
+
+function refreshSchoolStatus(){
+  var se = $('#sessionStatus');
+  if (se) {
+    var s = sessStart(), e = sessEnd();
+    if (!s && !e) { se.style.display = ''; se.className = 'banner warn'; se.innerHTML = '⚠ No session set. All dates treated as in-session.'; }
+    else if (s && e && s <= e) {
+      var wd = countWorkingDays(s, e);
+      se.style.display = ''; se.className = 'banner ok';
+      se.innerHTML = '✓ Session <b>' + esc(DB.session.name || '') + '</b> — ' + fmtDate(s) + ' → ' + fmtDate(e) + ' · <b>' + wd + '</b> working days.';
+    } else if (s && e && s > e) { se.style.display = ''; se.className = 'banner warn'; se.innerHTML = '⚠ End date is before start date.'; }
+    else { se.style.display = ''; se.className = 'banner'; se.innerHTML = 'Session partially set. Set both dates for full effect.'; }
+  }
+  var b = $('#entryClassBanner');
+  if (b) b.style.display = state.activeClassId ? 'none' : '';
+}
+
+function addHouseFromForm(){
+  var nameEl = $('#hname'), colorEl = $('#hcolor');
+  if (!nameEl) return;
+  var name = (nameEl.value || '').trim();
+  if (!name) { toast('Please enter a house name.', 'err'); nameEl.focus(); return; }
+  if (!Array.isArray(DB.houses)) DB.houses = [];
+  var exists = DB.houses.some(function(h){ return String(h.name||'').toLowerCase() === name.toLowerCase(); });
+  if (exists) { toast('House "' + name + '" already exists.', 'err'); nameEl.focus(); return; }
+  var color = (colorEl && colorEl.value) ? colorEl.value : '';
+  if (!/^#[0-9a-fA-F]{6}$/.test(color)) color = DEFAULT_HOUSE_COLORS[DB.houses.length % DEFAULT_HOUSE_COLORS.length];
+  DB.houses.push({ id: uid(), name: name, color: color });
+  persist();
+  if (nameEl.form) nameEl.form.reset();
+  if (colorEl) colorEl.value = '#4f46e5';
+  renderAll();
+  toast('✓ House "' + name + '" added.', 'ok');
+}
+
+function houseBadge(name){
+  if (!name) return '<span style="color:#cbd5e1">—</span>';
+  var c = houseColor(name);
+  return '<span class="house-badge" style="background:' + esc(c) + '1f;color:' + esc(c) + ';border-color:' + esc(c) + '55"><i style="background:' + esc(c) + '"></i>' + esc(name) + '</span>';
+}
+
+function renderHouses(){
+  var tb = $('#houseTbody');
+  if (!tb) return;
+  var countEl = $('#houseCount');
+  if (countEl) countEl.textContent = DB.houses.length ? ('— ' + DB.houses.length + ' house(s)') : '';
+  if (!DB.houses.length) { tb.innerHTML = '<tr><td colspan="4" class="empty">No houses defined yet. Add one above.</td></tr>'; return; }
+  tb.innerHTML = DB.houses.map(function(h, i){
+    var count = 0;
+    DB.classes.forEach(function(c){ count += c.students.filter(function(s){ return s.house === h.name && !hasLeft(s); }).length; });
+    return '<tr><td>' + (i+1) + '</td><td>' + houseBadge(h.name) + '</td><td>' + count + '</td>' +
+      '<td class="nowrap"><button class="btn-xs" data-hren="' + h.id + '">Rename</button> ' +
+      '<button class="btn-xs" data-hcol="' + h.id + '">Colour</button> ' +
+      '<button class="btn-xs danger" data-hrm="' + h.id + '">Delete</button></td></tr>';
+  }).join('');
+}
+
+function renderClasses(){
+  var tb = $('#classTbody');
+  if (!tb) return;
+  var countEl = $('#classCount');
+  if (countEl) countEl.textContent = DB.classes.length ? ('— ' + DB.classes.length + ' class(es)') : '';
+  if (!DB.classes.length) { tb.innerHTML = '<tr><td colspan="5" class="empty">No classes yet. Add one above.</td></tr>'; return; }
+  tb.innerHTML = DB.classes.map(function(c, i){
+    var active = state.activeClassId === c.id;
+    return '<tr class="' + (active ? 'cls-active-row' : '') + '">' +
+      '<td>' + (i+1) + '</td>' +
+      '<td><b>' + esc(c.name) + '</b>' + (active ? ' <span class="pill ok">ACTIVE</span>' : '') + '</td>' +
+      '<td>' + c.students.length + '</td>' +
+      '<td>' + (active ? '✓' : '') + '</td>' +
+      '<td class="nowrap">' +
+      '<button class="btn-xs primary" data-cact="' + c.id + '"' + (active ? ' disabled' : '') + '>Login</button> ' +
+      '<button class="btn-xs" data-cren="' + c.id + '">Rename</button> ' +
+      '<button class="btn-xs" data-crst="' + c.id + '">Reset Password</button> ' +
+      '<button class="btn-xs danger" data-cdel="' + c.id + '">Delete</button>' +
+      '</td></tr>';
+  }).join('');
+}
+
+function addClassFromForm(){
+  var nameEl = $('#c_name'), pwdEl = $('#c_pwd');
+  if (!nameEl) return;
+  var name = (nameEl.value || '').trim();
+  if (!name) { toast('Please enter a class name.', 'err'); nameEl.focus(); return; }
+  var exists = DB.classes.some(function(c){ return c.name.toLowerCase() === name.toLowerCase(); });
+  if (exists) { toast('Class "' + name + '" already exists.', 'err'); nameEl.focus(); return; }
+  var pwd = (pwdEl && pwdEl.value || '').trim() || CLASS_DEFAULT_PWD;
+  var cls = normaliseClass({ id: uid('cls'), name: name, password: pwd, students: [], attendance: {} });
+  DB.classes.push(cls);
+  persist();
+  if (nameEl.form) nameEl.form.reset();
+  if (!state.activeClassId) state.activeClassId = cls.id;
+  renderAll();
+  toast('✓ Class "' + name + '" created.', 'ok');
+}
+
+function renderMyClass(){
+  var wrap = $('#myClassInfo');
+  if (!wrap) return;
+  var c = activeClass();
+  if (!c) { wrap.innerHTML = '<p class="empty">No class loaded.</p>'; return; }
+  var total = c.students.length;
+  var active = c.students.filter(function(s){ return !hasLeft(s); }).length;
+  var left = c.students.filter(function(s){ return hasLeft(s); }).length;
+  var boys = c.students.filter(function(s){ return s.gender === 'Male' && !hasLeft(s); }).length;
+  var girls = c.students.filter(function(s){ return s.gender === 'Female' && !hasLeft(s); }).length;
+  var sess = DB.session || {};
+  wrap.innerHTML =
+    '<div class="stat-row" style="margin-top:0">' +
+    '<div class="stat blue"><div class="v">' + esc(c.name) + '</div><div class="l">Class</div></div>' +
+    '<div class="stat"><div class="v">' + total + '</div><div class="l">Total Students</div></div>' +
+    '<div class="stat ok"><div class="v">' + active + '</div><div class="l">Active</div></div>' +
+    '<div class="stat warn"><div class="v">' + left + '</div><div class="l">Left</div></div>' +
+    '<div class="stat blue"><div class="v">' + boys + '</div><div class="l">Boys</div></div>' +
+    '<div class="stat pink"><div class="v">' + girls + '</div><div class="l">Girls</div></div>' +
+    '</div>' +
+    '<div class="banner" style="margin-top:4px"><b>School:</b> ' + esc(DB.school || '—') + ' &nbsp;·&nbsp; <b>Session:</b> ' + esc(sess.name || '—') + ' (' + (sess.start ? fmtDate(sess.start) : '—') + ' → ' + (sess.end ? fmtDate(sess.end) : '—') + ')</div>';
+}
+
+function refreshFilterLists(){
+  var secs = sectionList();
+  setOptions($('#fltSec'), secs, 'All Sections');
+  setOptions($('#regSec'), secs, 'All Sections');
+  setOptions($('#sumSec'), secs, 'All Sections');
+  setOptions($('#lowSec'), secs, 'All Sections');
+  setOptions($('#fltHouse'), houseNames(), 'All Houses');
+  var sd = $('#secDatalist');
+  if (sd) sd.innerHTML = secs.map(function(c){ return '<option value="' + esc(c) + '">'; }).join('');
+  var cName = activeClass() ? activeClass().name : '—';
+  ['importClsName','formClsName','regClsName','sumClsName','lowClsName'].forEach(function(id){
+    var el = $('#' + id); if (el) el.textContent = cName;
+  });
+}
+
+function populateHouseSelect(){
+  var sel = $('#f_house');
+  if (!sel) return;
+  var cur = sel.value;
+  sel.innerHTML = '<option value="">— Select House —</option>' +
+    DB.houses.map(function(h){ return '<option value="' + esc(h.name) + '">' + esc(h.name) + '</option>'; }).join('') +
+    '<option value="__NEW__">➕ Add new house…</option>';
+  if (cur && cur !== '__NEW__' && DB.houses.some(function(h){ return h.name === cur; })) sel.value = cur;
+}
+
+function genderBadge(g){
+  if (g === 'Male') return '<span class="gender-badge M">♂ M</span>';
+  if (g === 'Female') return '<span class="gender-badge F">♀ F</span>';
+  return '<span style="color:#cbd5e1">—</span>';
+}
+
+function renderStudents(){
+  var tb = $('#studentTbody');
+  if (!tb) return;
+  if (!activeClass()) { tb.innerHTML = '<tr><td colspan="12" class="empty">Select a class from the header to begin.</td></tr>'; return; }
+  var sec = $('#fltSec').value;
+  var house = $('#fltHouse').value;
+  var gender = $('#fltGender').value;
+  var showLeft = $('#fltLeft').checked;
+  var q = $('#fltSearch').value.trim().toLowerCase();
+  var list = studentsFiltered(sec, house, showLeft);
+  if (gender === 'Unspecified') list = list.filter(function(s){ return !s.gender; });
+  else if (gender) list = list.filter(function(s){ return s.gender === gender; });
+  if (q) {
+    list = list.filter(function(s){
+      return [s.name, s.father, s.mother, s.house, s.c1, s.c2, s.address, s.sec, s.gender].join(' ').toLowerCase().indexOf(q) >= 0;
+    });
+  }
+  $('#studentCount').textContent = '— showing ' + list.length + ' of ' + students().length + (showLeft ? '' : ' (active only)');
+  if (!list.length) { tb.innerHTML = '<tr><td colspan="12" class="empty">No students found.</td></tr>'; return; }
+  tb.innerHTML = list.map(function(s, i){
+    var left = hasLeft(s);
+    var actions = left
+      ? '<button class="btn-xs green" data-restore="' + s.id + '">Restore</button> <button class="btn-xs danger" data-del="' + s.id + '">Delete</button>'
+      : '<button class="btn-xs" data-edit="' + s.id + '">Edit</button> <button class="btn-xs" data-left="' + s.id + '">Left</button> <button class="btn-xs danger" data-del="' + s.id + '">Delete</button>';
+    return '<tr>' +
+      '<td>' + (i+1) + '</td>' +
+      '<td><b>' + esc(s.name) + '</b>' + (left ? ' <span class="left-badge">LEFT</span>' : '') + '</td>' +
+      '<td>' + genderBadge(s.gender) + '</td>' +
+      '<td>' + esc(s.sec) + '</td>' +
+      '<td>' + houseBadge(s.house) + '</td>' +
+      '<td>' + esc(s.dob) + '</td>' +
+      '<td>' + esc(s.father) + '</td>' +
+      '<td>' + esc(s.mother) + '</td>' +
+      '<td class="nowrap">' + esc(s.c1) + (s.c2 ? '<br>' + esc(s.c2) : '') + '</td>' +
+      '<td class="nowrap">' + (s.admitDate ? esc(s.admitDate) : '<span style="color:#cbd5e1">—</span>') + '</td>' +
+      '<td class="nowrap">' + (s.leftDate ? '<span class="left-badge">' + esc(s.leftDate) + '</span>' : '<span style="color:#cbd5e1">—</span>') + '</td>' +
+      '<td class="nowrap">' + actions + '</td>' +
+      '</tr>';
+  }).join('');
+}
+
+function clearStudentForm(){
+  editingId = null;
+  var f = $('#studentForm'); if (f) f.reset();
+  $('#editId').value = '';
+  $('#f_admit').value = todayStr();
+  $('#btnSaveStudent').textContent = '💾 Save Student';
+  populateHouseSelect();
+}
+function fillStudentForm(s){
+  editingId = s.id;
+  $('#editId').value = s.id;
+  $('#f_name').value = s.name || '';
+  $('#f_gender').value = s.gender || '';
+  $('#f_sec').value = s.sec || '';
+  $('#f_dob').value = s.dob || '';
+  $('#f_father').value = s.father || '';
+  $('#f_mother').value = s.mother || '';
+  $('#f_c1').value = s.c1 || '';
+  $('#f_c2').value = s.c2 || '';
+  $('#f_addr').value = s.address || '';
+  $('#f_admit').value = s.admitDate || '';
+  $('#f_left').value = s.leftDate || '';
+  populateHouseSelect();
+  $('#f_house').value = s.house || '';
+  $('#btnSaveStudent').textContent = '💾 Update Student';
+  $('#f_name').focus();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+var HEADERS = ['Section','Student Name','Gender','Date of Birth',"Father's Name","Mother's Name",'House','Contact No. 1','Contact No. 2','Address','Admission Date'];
+function downloadTemplate(){
+  var sample = [HEADERS, ['A','Aarav Sharma','Male','2014-06-12','Rakesh Sharma','Sunita Sharma','Emerald','9876543210','9812345678','12, MG Road, New Delhi',todayStr()]];
+  var ws = XLSX.utils.aoa_to_sheet(sample);
+  ws['!cols'] = HEADERS.map(function(h){ return { wch: Math.max(14, h.length + 4) }; });
+  var wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'Students');
+  XLSX.writeFile(wb, 'Student_Data_Template.xlsx');
+}
+
+function buildHeaderMap(headerRow){
+  var norm = function(s){ return String(s||'').toLowerCase().replace(/[^a-z0-9]/g, ''); };
+  var idx = {};
+  headerRow.forEach(function(h, i){ var n = norm(h); if (n && idx[n] === undefined) idx[n] = i; });
+  var find = function(keys){ for (var i = 0; i < keys.length; i++) if (idx[keys[i]] !== undefined) return idx[keys[i]]; return -1; };
+  return {
+    sec: find(['section','sec']),
+    name: find(['studentname','nameofstudent','name','student']),
+    gender: find(['gender','sex','mf']),
+    dob: find(['dateofbirth','dob','birthdate','birthday']),
+    father: find(['fathersname','fathername','father','fatherguardianname']),
+    mother: find(['mothersname','mothername','mother']),
+    house: find(['house','housecolour','housecolor','housegroup']),
+    c1: find(['contactno1','contact1','contactnoofparent1','parentcontact1','contactnumber1','mobile1','phoneno1']),
+    c2: find(['contactno2','contact2','contactnoofparent2','parentcontact2','contactnumber2','mobile2','phoneno2']),
+    address: find(['address','residentialaddress','fulladdress','addressofstudent']),
+    admit: find(['admissiondate','admitdate','dateofadmission','joined','joiningdate'])
+  };
+}
+
+function normaliseGender(v){
+  var s = String(v||'').trim().toLowerCase();
+  if (s === 'm' || s === 'male' || s === 'boy' || s === 'b') return 'Male';
+  if (s === 'f' || s === 'female' || s === 'girl' || s === 'g') return 'Female';
+  return '';
+}
+
+function handleUpload(file){
+  var cls = activeClass();
+  if (!cls) { toast('Please select a class first.', 'err'); return; }
+  var reader = new FileReader();
+  reader.onload = function(ev){
+    var wb;
+    try { wb = XLSX.read(new Uint8Array(ev.target.result), { type: 'array', cellDates: false }); }
+    catch(err){ toast('Could not read that file.', 'err'); return; }
+    var ws = wb.Sheets[wb.SheetNames[0]];
+    if (!ws) { toast('The file has no sheets.', 'err'); return; }
+    var rows = XLSX.utils.sheet_to_json(ws, { header: 1, raw: false, defval: '' });
+    if (!rows.length) { toast('The file appears to be empty.', 'err'); return; }
+    var headerRowIdx = 0;
+    for (var i = 0; i < Math.min(rows.length, 8); i++) {
+      var joined = rows[i].map(function(c){ return String(c).toLowerCase(); }).join('|');
+      if (joined.indexOf('name') >= 0 || joined.indexOf('section') >= 0) { headerRowIdx = i; break; }
+    }
+    var map = buildHeaderMap(rows[headerRowIdx]);
+    if (map.name < 0) { toast('Could not find a "Student Name" column.', 'err'); return; }
+    var get = function(row, i){ return i >= 0 ? String(row[i] == null ? '' : row[i]).trim() : ''; };
+    var added = 0, skipped = 0, badDates = 0;
+    for (var r = headerRowIdx + 1; r < rows.length; r++) {
+      var row = rows[r];
+      if (!row || row.every(function(c){ return String(c == null ? '' : c).trim() === ''; })) continue;
+      var name = get(row, map.name);
+      if (!name) continue;
+      var sec = get(row, map.sec);
+      var dupe = cls.students.some(function(s){ return s.name.toLowerCase() === name.toLowerCase() && String(s.sec||'').toLowerCase() === sec.toLowerCase(); });
+      if (dupe) { skipped++; continue; }
+      var house = get(row, map.house);
+      if (house) ensureHouse(house);
+      var rawAdmit = get(row, map.admit);
+      var admit = normaliseDate(rawAdmit);
+      if (rawAdmit && !admit) badDates++;
+      cls.students.push(normaliseStudent({
+        id: uid(), sec: sec, name: name,
+        gender: normaliseGender(get(row, map.gender)),
+        dob: normaliseDate(get(row, map.dob)),
+        father: get(row, map.father), mother: get(row, map.mother), house: house,
+        c1: get(row, map.c1), c2: get(row, map.c2), address: get(row, map.address),
+        admitDate: admit, leftDate: ''
+      }));
+      added++;
+    }
+    var bestMonth = suggestMonthWithStudents();
+    if (bestMonth) $('#regMonth').value = bestMonth;
+    persist(); renderAll();
+    var msg = 'Import complete — added ' + added + ', skipped ' + skipped + ' duplicate(s).';
+    if (badDates) msg += ' ⚠ ' + badDates + " admission date(s) couldn't be read.";
+    toast(msg, badDates ? 'warn' : 'ok');
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+function renderRegister(){
+  var table = $('#regTable'), summary = $('#regSummary'), statusEl = $('#regStatus');
+  if (!table) return;
+  if (!activeClass()) {
+    table.innerHTML = '';
+    if (summary) summary.innerHTML = '';
+    if (statusEl) { statusEl.style.display = ''; statusEl.className = 'banner warn'; statusEl.textContent = 'Select a class from the header dropdown.'; }
+    return;
+  }
+  var sec = $('#regSec').value;
+  var mv = $('#regMonth').value;
+  if (!mv) { mv = defaultRegisterMonth(); $('#regMonth').value = mv; }
+  var p = mv.split('-').map(Number);
+  var y = p[0], m = p[1];
+  var days = daysInMonth(y, m);
+  var firstDay = dk(y, m, 1);
+  var lastDay = dk(y, m, days);
+  var allInSection = studentsFiltered(sec, '', true);
+  var list = allInSection.filter(function(s){ return overlapsMonth(s, firstDay, lastDay); });
+  regState = { list: list, y: y, m: m, days: days };
+  renderRegisterSummary(list, firstDay, lastDay, mv);
+  if (statusEl) {
+    var sessionS = sessStart(), sessionE = sessEnd();
+    var totalStudents = students().length;
+    if (totalStudents === 0) { statusEl.style.display = 'none'; }
+    else if (!list.length) {
+      statusEl.style.display = '';
+      statusEl.className = 'banner danger';
+      if (allInSection.length === 0) {
+        var secTxt = sec ? ('section "' + esc(sec) + '"') : 'the current filter';
+        statusEl.innerHTML = '⚠ No students found in ' + secTxt + '. This class has <b>' + totalStudents + '</b> student(s). <br><button class="btn-xs primary" id="regResetFilters" style="margin-top:8px">Reset filters</button>';
+      } else {
+        var admitList = allInSection.map(function(s){ return s.admitDate; }).filter(isValidISODate).sort();
+        var firstAdm = admitList[0] || '—';
+        statusEl.innerHTML = '⚠ You have <b>' + allInSection.length + '</b> student(s), but none were enrolled during <b>' + monthLabel(mv) + '</b>. Earliest admission: <b>' + esc(firstAdm) + '</b>. <br><button class="btn-xs primary" id="regJumpToSuggested" style="margin-top:8px">Jump to month with students</button>';
+      }
+    } else if ((sessionS && lastDay < sessionS) || (sessionE && firstDay > sessionE)) {
+      statusEl.style.display = ''; statusEl.className = 'banner warn';
+      statusEl.innerHTML = 'ℹ Month <b>' + monthLabel(mv) + '</b> is outside your session. Cells will be locked.';
+    } else { statusEl.style.display = 'none'; }
+  }
+  if (!list.length) {
+    table.innerHTML = '';
+    var resetBtn = $('#regResetFilters');
+    if (resetBtn) resetBtn.onclick = function(){ $('#regSec').value = ''; renderRegister(); };
+    var jumpBtn = $('#regJumpToSuggested');
+    if (jumpBtn) jumpBtn.onclick = function(){
+      var best = suggestMonthWithStudents();
+      $('#regMonth').value = best;
+      renderRegister();
+      toast('Jumped to ' + monthLabel(best), 'ok');
+    };
+    return;
+  }
+  var html = '<thead><tr><th class="sticky-col">Student</th>';
+  for (var d = 1; d <= days; d++) {
+    var ds = dk(y, m, d);
+    var h = holidayInfo(ds);
+    var sun = DB.settings.sundayHoliday && isSunday(ds);
+    var outS = !inSession(ds);
+    var cls = '', tip = '';
+    if (outS) { cls = 'outsess'; tip = 'Outside session'; }
+    else if (h) { cls = 'hol'; tip = h.reason + ' (' + h.type + ')'; }
+    else if (sun) { cls = 'off'; tip = 'Sunday'; }
+    html += '<th class="' + cls + '" title="' + esc(tip) + '">' + d + '</th>';
+  }
+  html += '<th class="wdcol">WD</th><th class="tot">P</th><th class="tot">A</th><th class="tot">Month %</th><th class="tot">Till Date %</th></tr></thead>';
+  html += '<tbody id="regTbody">';
+  list.forEach(function(s){
+    var sub = [s.sec ? 'Sec ' + s.sec : '', s.gender || '', s.house || ''].filter(Boolean).join(' · ');
+    var leftBadge = hasLeft(s) ? ' <span class="left-badge">LEFT</span>' : '';
+    html += '<tr data-sid="' + s.id + '"><td class="sticky-col"><b>' + esc(s.name) + '</b>' + leftBadge + (sub ? '<div class="sub">' + esc(sub) + '</div>' : '') + '</td>';
+    for (var dd = 1; dd <= days; dd++) {
+      var dsx = dk(y, m, dd);
+      var hx = holidayInfo(dsx);
+      var sunx = DB.settings.sundayHoliday && isSunday(dsx);
+      if (!inSession(dsx)) { html += '<td class="att-cell OS" title="Outside session">–</td>'; }
+      else if (hx || sunx) {
+        var cl = hx ? 'att-cell hol' : 'att-cell H';
+        var tp = hx ? (hx.reason + ' (' + hx.type + ')') : 'Sunday';
+        html += '<td class="' + cl + '" title="' + esc(tp) + '">H</td>';
+      } else if (!isActiveOn(s, dsx)) {
+        var why = (isValidISODate(s.admitDate) && dsx < s.admitDate) ? ('Before admission (' + s.admitDate + ')') : ('After leaving (' + s.leftDate + ')');
+        html += '<td class="att-cell NA" title="' + esc(why) + '">–</td>';
+      } else {
+        var att = attRef();
+        var v = (att && att[s.id + '|' + dsx]) || '';
+        html += '<td class="att-cell ' + v + '" data-sid="' + s.id + '" data-date="' + dsx + '">' + v + '</td>';
+      }
+    }
+    html += '<td class="wdcell c-wd">–</td><td class="tot c-p">–</td><td class="tot c-a">–</td><td class="tot c-mp">–</td><td class="tot c-tp">–</td></tr>';
+  });
+  html += '</tbody>';
+  html += '<tfoot>';
+  html += '<tr class="boys"><td class="sticky-col">👦 Boys Present</td>';
+  for (var d1 = 1; d1 <= days; d1++) html += '<td data-bp="' + d1 + '">–</td>';
+  html += '<td class="wdcol">–</td><td class="tot" data-bp-tot>–</td><td class="tot">–</td><td class="tot" data-bp-pct>–</td><td class="tot" data-bp-till>–</td></tr>';
+  html += '<tr class="boys"><td class="sticky-col">👦 Boys Absent</td>';
+  for (var d2 = 1; d2 <= days; d2++) html += '<td data-ba="' + d2 + '">–</td>';
+  html += '<td class="wdcol">–</td><td class="tot">–</td><td class="tot" data-ba-tot>–</td><td class="tot">–</td><td class="tot">–</td></tr>';
+  html += '<tr class="girls"><td class="sticky-col">👧 Girls Present</td>';
+  for (var d3 = 1; d3 <= days; d3++) html += '<td data-gp="' + d3 + '">–</td>';
+  html += '<td class="wdcol">–</td><td class="tot" data-gp-tot>–</td><td class="tot">–</td><td class="tot" data-gp-pct>–</td><td class="tot" data-gp-till>–</td></tr>';
+  html += '<tr class="girls"><td class="sticky-col">👧 Girls Absent</td>';
+  for (var d4 = 1; d4 <= days; d4++) html += '<td data-ga="' + d4 + '">–</td>';
+  html += '<td class="wdcol">–</td><td class="tot">–</td><td class="tot" data-ga-tot>–</td><td class="tot">–</td><td class="tot">–</td></tr>';
+  html += '<tr class="total"><td class="sticky-col">Σ Total Present</td>';
+  for (var d5 = 1; d5 <= days; d5++) html += '<td data-tp="' + d5 + '">–</td>';
+  html += '<td class="wdcol">–</td><td class="tot" id="fP">–</td><td class="tot">–</td><td class="tot" id="fM">–</td><td class="tot" id="fT">–</td></tr>';
+  html += '<tr class="total"><td class="sticky-col">Σ Total Absent</td>';
+  for (var d6 = 1; d6 <= days; d6++) html += '<td data-ta="' + d6 + '">–</td>';
+  html += '<td class="wdcol">–</td><td class="tot">–</td><td class="tot" id="fA">–</td><td class="tot">–</td><td class="tot">–</td></tr>';
+  html += '<tr class="wdrow"><td class="sticky-col">📅 Working Days</td>';
+  for (var d7 = 1; d7 <= days; d7++) {
+    var ds2 = dk(y, m, d7);
+    var mark = (!inSession(ds2) || isNonWorking(ds2)) ? '' : '✓';
+    html += '<td>' + mark + '</td>';
+  }
+  html += '<td class="wdcol" id="fWD">–</td><td class="tot" colspan="4"></td></tr>';
+  html += '</tfoot>';
+  table.innerHTML = html;
+  refreshRegisterTotals(list, y, m, days);
+}
+
+function refreshRegisterTotals(list, y, m, days){
+  var mFrom = dk(y, m, 1), mTo = dk(y, m, days);
+  var dayBP = {}, dayBA = {}, dayGP = {}, dayGA = {};
+  var fp = 0, fa = 0, tp = 0, ta = 0;
+  var bpTot = 0, baTot = 0, gpTot = 0, gaTot = 0;
+  var bpTill = 0, bpTillA = 0, gpTill = 0, gpTillA = 0;
+  var monWDTot = 0, tillWDTot = 0;
+  var att = attRef() || {};
+  list.forEach(function(s){
+    var row = document.querySelector('#regTbody tr[data-sid="' + s.id + '"]');
+    var mon = getStats(s, mFrom, mTo);
+    var till = getStats(s, null, mTo);
+    if (row) {
+      var wdEl = row.querySelector('.c-wd'); if (wdEl) wdEl.textContent = mon.wd;
+      var pEl = row.querySelector('.c-p'); if (pEl) pEl.textContent = mon.p;
+      var aEl = row.querySelector('.c-a'); if (aEl) aEl.textContent = mon.a;
+      var mpEl = row.querySelector('.c-mp'); if (mpEl) mpEl.textContent = mon.wd ? (mon.pct.toFixed(1) + '%') : '–';
+      var tpEl = row.querySelector('.c-tp'); if (tpEl) tpEl.textContent = till.wd ? (till.pct.toFixed(1) + '%') : '–';
+    }
+    fp += mon.p; fa += mon.a; tp += till.p; ta += till.a;
+    monWDTot += mon.wd; tillWDTot += till.wd;
+    if (s.gender === 'Male') { bpTot += mon.p; baTot += mon.a; bpTill += till.p; bpTillA += till.a; }
+    if (s.gender === 'Female') { gpTot += mon.p; gaTot += mon.a; gpTill += till.p; gpTillA += till.a; }
+    for (var dd = 1; dd <= days; dd++) {
+      var ds = dk(y, m, dd);
+      if (isNonWorking(ds)) continue;
+      if (!isActiveOn(s, ds)) continue;
+      var v = att[s.id + '|' + ds];
+      if (v !== 'P' && v !== 'A') continue;
+      if (s.gender === 'Male') {
+        if (v === 'P') dayBP[dd] = (dayBP[dd] || 0) + 1;
+        else dayBA[dd] = (dayBA[dd] || 0) + 1;
+      } else if (s.gender === 'Female') {
+        if (v === 'P') dayGP[dd] = (dayGP[dd] || 0) + 1;
+        else dayGA[dd] = (dayGA[dd] || 0) + 1;
+      }
+    }
+  });
+  var tf = $('#regTable tfoot');
+  if (tf) {
+    for (var d = 1; d <= days; d++) {
+      var bp = dayBP[d] || 0, ba = dayBA[d] || 0;
+      var gp = dayGP[d] || 0, ga = dayGA[d] || 0;
+      var set = function(attr, val){ var el = tf.querySelector('[' + attr + '="' + d + '"]'); if (el) el.textContent = val; };
+      set('data-bp', bp); set('data-ba', ba); set('data-gp', gp); set('data-ga', ga);
+      set('data-tp', bp + gp); set('data-ta', ba + ga);
+    }
+    var set2 = function(attr, v){ var el = tf.querySelector('[' + attr + ']'); if (el) el.textContent = v; };
+    set2('data-bp-tot', bpTot); set2('data-ba-tot', baTot);
+    set2('data-gp-tot', gpTot); set2('data-ga-tot', gaTot);
+    set2('data-bp-pct', (bpTot + baTot) ? ((bpTot * 100 / (bpTot + baTot)).toFixed(1) + '%') : '–');
+    set2('data-bp-till', (bpTill + bpTillA) ? ((bpTill * 100 / (bpTill + bpTillA)).toFixed(1) + '%') : '–');
+    set2('data-gp-pct', (gpTot + gaTot) ? ((gpTot * 100 / (gpTot + gaTot)).toFixed(1) + '%') : '–');
+    set2('data-gp-till', (gpTill + gpTillA) ? ((gpTill * 100 / (gpTill + gpTillA)).toFixed(1) + '%') : '–');
+    var set3 = function(id, v){ var el = $(id); if (el) el.textContent = v; };
+    set3('#fP', fp); set3('#fA', fa);
+    set3('#fM', monWDTot ? ((fp * 100 / monWDTot).toFixed(1) + '%') : '–');
+    set3('#fT', tillWDTot ? ((tp * 100 / tillWDTot).toFixed(1) + '%') : '–');
+    var clsWD = countWorkingDays(mFrom, mTo);
+    var fwd = $('#fWD'); if (fwd) fwd.textContent = clsWD;
+  }
+}
+
+function onRegisterClick(e){
+  var td = e.target.closest('.att-cell');
+  if (!td) return;
+  var sid = td.dataset.sid, dt = td.dataset.date;
+  if (!sid || !dt) return;
+  var att = attRef(); if (!att) return;
+  var key = sid + '|' + dt;
+  var cur = att[key] || '';
+  var next = cur === '' ? 'P' : cur === 'P' ? 'A' : '';
+  if (next) att[key] = next; else delete att[key];
+  td.className = 'att-cell ' + next;
+  td.textContent = next;
+  persist();
+  invalidate();
+  refreshRegisterTotals(regState.list, regState.y, regState.m, regState.days);
+}
+
+function renderRegisterSummary(list, firstDay, lastDay, moKey){
+  var wrap = $('#regSummary'); if (!wrap) return;
+  var sec = $('#regSec').value;
+  var allInSection = studentsFiltered(sec, '', true);
+  var openB = 0, openG = 0, admB = 0, admG = 0, leftB = 0, leftG = 0, closeB = 0, closeG = 0;
+  var dayBefore = (function(){ var d = new Date(firstDay + 'T00:00:00'); d.setDate(d.getDate() - 1); return dk(d.getFullYear(), d.getMonth() + 1, d.getDate()); })();
+  allInSection.forEach(function(s){
+    var adm = isValidISODate(s.admitDate) ? s.admitDate : '';
+    var left = isValidISODate(s.leftDate) ? s.leftDate : '';
+    var isB = s.gender === 'Male', isG = s.gender === 'Female';
+    if ((!adm || adm <= dayBefore) && (!left || left >= dayBefore)) { if (isB) openB++; if (isG) openG++; }
+    if (adm && adm >= firstDay && adm <= lastDay) { if (isB) admB++; if (isG) admG++; }
+    if (left && left >= firstDay && left <= lastDay) { if (isB) leftB++; if (isG) leftG++; }
+    if ((!adm || adm <= lastDay) && (!left || left >= lastDay)) { if (isB) closeB++; if (isG) closeG++; }
+  });
+  var totalOpen = openB + openG, totalAdm = admB + admG, totalLeft = leftB + leftG, totalClose = closeB + closeG;
+  var wdMonth = countWorkingDays(firstDay, lastDay);
+  var wdSession = 0;
+  if (hasSession()) { var s = sessStart(), e = sessEnd(); var to = e && e < lastDay ? e : lastDay; wdSession = countWorkingDays(s, to); }
+  var sessLabel = (DB.session && DB.session.name) ? DB.session.name : 'Session';
+  wrap.innerHTML =
+    '<div class="stat blue"><div class="v">' + totalOpen + '</div><div class="l">Opening Balance</div><div class="sub">Boys ' + openB + ' · Girls ' + openG + '</div></div>' +
+    '<div class="stat ok"><div class="v">' + totalAdm + '</div><div class="l">Admitted</div><div class="sub">Boys ' + admB + ' · Girls ' + admG + '</div></div>' +
+    '<div class="stat warn"><div class="v">' + totalLeft + '</div><div class="l">Left</div><div class="sub">Boys ' + leftB + ' · Girls ' + leftG + '</div></div>' +
+    '<div class="stat amber"><div class="v">' + totalClose + '</div><div class="l">Closing Balance</div><div class="sub">Boys ' + closeB + ' · Girls ' + closeG + '</div></div>' +
+    '<div class="stat purple"><div class="v">' + wdMonth + '</div><div class="l">Working Days (' + monthLabel(moKey) + ')</div><div class="sub">Session-clipped</div></div>' +
+    '<div class="stat purple"><div class="v">' + wdSession + '</div><div class="l">Working Days (' + esc(sessLabel) + ' till date)</div><div class="sub">Overall</div></div>';
+}
+
+function addHolidayFromForm(){
+  var dateEl = $('#h_date'), reasonEl = $('#h_reason'), typeEl = $('#h_type');
+  if (!dateEl || !reasonEl) return;
+  var date = normaliseDate(dateEl.value) || dateEl.value;
+  var reason = (reasonEl.value || '').trim();
+  var type = typeEl ? typeEl.value : 'Other';
+  if (!date) { toast('Please pick a date.', 'err'); dateEl.focus(); return; }
+  if (!reason) { toast('Please enter a reason.', 'err'); reasonEl.focus(); return; }
+  if (!inSession(date)) { if (!confirm('This date is outside the session. Add anyway?')) return; }
+  if (DB.holidays.some(function(h){ return h.date === date; })) { if (!confirm('A holiday already exists on this date. Add another anyway?')) return; }
+  DB.holidays.push({ id: uid(), date: date, reason: reason, type: type });
+  var cleared = 0;
+  DB.classes.forEach(function(c){
+    for (var k in c.attendance) { if (k.slice(k.indexOf('|') + 1) === date) { delete c.attendance[k]; cleared++; } }
+  });
+  persist();
+  if (dateEl.form) dateEl.form.reset();
+  renderHolidays(); invalidate();
+  renderRegister(); renderSummary(); renderLow(); renderConsolidated();
+  toast(cleared ? ('Holiday added — ' + cleared + ' entry(ies) cleared.') : 'Holiday added.', 'ok');
+}
+
+function renderHolidays(){
+  var tb = $('#holidayTbody'); if (!tb) return;
+  var isMaster = state.role === 'master';
+  var addCard = $('#holidayAddCard'), viewCard = $('#holidayViewOnlyCard');
+  if (addCard) addCard.hidden = !isMaster;
+  if (viewCard) viewCard.hidden = isMaster;
+  var list = DB.holidays.slice().sort(function(a,b){ return a.date.localeCompare(b.date); });
+  $('#holidayCount').textContent = list.length ? ('— ' + list.length + ' holiday(s)') : '';
+  if (!list.length) { tb.innerHTML = '<tr><td colspan="5" class="empty">No holidays added yet.</td></tr>'; return; }
+  tb.innerHTML = list.map(function(h){
+    var out = !inSession(h.date);
+    var action = isMaster ? ('<button class="btn-xs danger" data-hdel="' + h.id + '">Delete</button>') : '<span style="color:#cbd5e1">—</span>';
+    return '<tr><td class="nowrap"><b>' + fmtDate(h.date) + '</b>' + (out ? ' <span class="left-badge">OUT</span>' : '') + '</td><td>' + dayName(h.date) + '</td><td>' + esc(h.reason) + '</td><td><span class="tag ' + esc(h.type) + '">' + esc(h.type) + '</span></td><td>' + action + '</td></tr>';
+  }).join('');
+}
+
+function renderSummaryChips(){
+  var months = availableMonths();
+  Object.keys(sumSelected).forEach(function(mo){ if (months.indexOf(mo) < 0) delete sumSelected[mo]; });
+  if (!sumInitialised) { var def = defaultRegisterMonth(); sumSelected[months.indexOf(def) >= 0 ? def : months[months.length-1]] = true; sumInitialised = true; }
+  var wrap = $('#sumMonths'); if (!wrap) return;
+  wrap.innerHTML = months.map(function(mo){
+    return '<label class="chip"><input type="checkbox" value="' + mo + '"' + (sumSelected[mo] ? ' checked' : '') + '>' + monthLabel(mo) + '</label>';
+  }).join('') + '<div class="chip-actions"><button class="btn-xs" id="sumAll">Select all</button><button class="btn-xs" id="sumNone">Clear</button></div>';
+  $$('#sumMonths input[type=checkbox]').forEach(function(cb){
+    cb.onchange = function(){ if (cb.checked) sumSelected[cb.value] = true; else delete sumSelected[cb.value]; renderSummaryTable(); };
+  });
+  var all = $('#sumAll'), none = $('#sumNone');
+  if (all) all.onclick = function(){ months.forEach(function(mo){ sumSelected[mo] = true; }); renderSummaryChips(); renderSummaryTable(); };
+  if (none) none.onclick = function(){ sumSelected = {}; renderSummaryChips(); renderSummaryTable(); };
+}
+
+function renderSummaryTable(){
+  var wrap = $('#sumWrap'); if (!wrap) return;
+  if (!activeClass()) { wrap.innerHTML = '<p class="empty">Select a class from the header dropdown.</p>'; return; }
+  var sec = $('#sumSec').value;
+  var list = studentsFiltered(sec, '', true);
+  var months = Object.keys(sumSelected).sort();
+  if (!list.length) { wrap.innerHTML = '<p class="empty">No students found.</p>'; return; }
+  if (!months.length) { wrap.innerHTML = '<p class="empty">Select at least one month above.</p>'; return; }
+  var totP = {}, totWD = {};
+  var html = '<table class="data-table"><thead><tr><th style="position:sticky;left:0;background:#f8fafc;z-index:3">Student</th>';
+  months.forEach(function(mo){ html += '<th class="num">' + monthLabel(mo) + '</th>'; });
+  html += '<th class="num">Overall</th></tr></thead><tbody>';
+  list.forEach(function(s){
+    var leftBadge = hasLeft(s) ? ' <span class="left-badge">LEFT</span>' : '';
+    html += '<tr><td style="position:sticky;left:0;background:#fff;z-index:2"><b>' + esc(s.name) + '</b>' + leftBadge + '<div class="sub">' + [s.sec ? 'Sec ' + s.sec : '', s.gender || ''].filter(Boolean).join(' · ') + '</div></td>';
+    var P = 0, WD = 0;
+    months.forEach(function(mo){
+      var r = monthRange(mo);
+      var st = getStats(s, r.from, r.to);
+      P += st.p; WD += st.wd;
+      totP[mo] = (totP[mo] || 0) + st.p;
+      totWD[mo] = (totWD[mo] || 0) + st.wd;
+      var pct = st.wd ? st.pct : null;
+      var c2 = pct === null ? '' : pct >= 90 ? 'ok' : pct >= 75 ? 'warn' : 'bad';
+      html += '<td class="num">' + (pct === null ? '<span style="color:#cbd5e1">–</span>' : '<span class="pill ' + c2 + '">' + pct.toFixed(1) + '%</span>') + '<div class="sub">' + st.p + '/' + st.wd + ' WD</div></td>';
+    });
+    var ov = WD ? (P * 100 / WD) : null;
+    var ovCls = ov === null ? '' : ov >= 90 ? 'ok' : ov >= 75 ? 'warn' : 'bad';
+    html += '<td class="num">' + (ov === null ? '–' : '<span class="pill ' + ovCls + '">' + ov.toFixed(1) + '%</span>') + '<div class="sub">' + P + '/' + WD + ' WD</div></td></tr>';
+  });
+  html += '</tbody><tfoot><tr><td style="position:sticky;left:0;background:#f1f5f9;z-index:3"><b>Class Average</b></td>';
+  months.forEach(function(mo){
+    var p = totP[mo] || 0, wd = totWD[mo] || 0;
+    html += '<td class="num strong">' + (wd ? ((p * 100 / wd).toFixed(1) + '%') : '–') + '<div class="sub">' + p + '/' + wd + ' WD</div></td>';
+  });
+  html += '<td></td></tr>';
+  html += '<tr class="wdrow"><td style="position:sticky;left:0;background:#f5f3ff;z-index:3;color:#6d28d9"><b>📅 Total Working Days</b></td>';
+  months.forEach(function(mo){
+    var r = monthRange(mo);
+    var wd = countWorkingDays(r.from, r.to);
+    html += '<td class="num strong" style="background:#faf5ff;color:#6d28d9">' + wd + '</td>';
+  });
+  html += '<td style="background:#f5f3ff"></td></tr></tfoot></table>';
+  wrap.innerHTML = html;
+}
+
+function renderSummary(){ renderSummaryChips(); renderSummaryTable(); }
+
+function renderLow(){
+  var wrap = $('#lowResult'); if (!wrap) return;
+  if (!activeClass()) { wrap.innerHTML = '<p class="empty">Select a class from the header dropdown.</p>'; return; }
+  var sec = $('#lowSec').value;
+  var fromMo = $('#lowFrom').value, toMo = $('#lowTo').value;
+  var thr = parseFloat($('#lowThr').value);
+  var list = studentsFiltered(sec, '', true);
+  var threshold = isNaN(thr) ? 75 : thr;
+  var fromDate = fromMo ? monthRange(fromMo).from : null;
+  var toDate = toMo ? monthRange(toMo).to : null;
+  var rows = [];
+  list.forEach(function(s){ var st = getStats(s, fromDate, toDate); if (st.wd === 0) return; if (st.pct < threshold) rows.push({ s: s, st: st }); });
+  rows.sort(function(a,b){ return a.st.pct - b.st.pct; });
+  var withData = list.filter(function(s){ return getStats(s, fromDate, toDate).wd > 0; }).length;
+  var avgP = 0, avgWD = 0;
+  list.forEach(function(s){ var st = getStats(s, fromDate, toDate); avgP += st.p; avgWD += st.wd; });
+  var avg = avgWD ? (avgP * 100 / avgWD) : 0;
+  var period = (fromMo ? monthLabel(fromMo) : 'Session start') + ' → ' + (toMo ? monthLabel(toMo) : 'Latest');
+  var html = '<div class="stat-row">' +
+    '<div class="stat"><div class="v">' + list.length + '</div><div class="l">Students Evaluated</div></div>' +
+    '<div class="stat ' + (rows.length ? 'warn' : 'ok') + '"><div class="v">' + rows.length + '</div><div class="l">Below ' + threshold + '%</div></div>' +
+    '<div class="stat ok"><div class="v">' + avg.toFixed(1) + '%</div><div class="l">Class Average</div></div>' +
+    '<div class="stat"><div class="v" style="font-size:13px;padding-top:6px">' + esc(period) + '</div><div class="l">Period</div></div></div>';
+  if (!withData) { html += '<p class="empty">No working days in this range.</p>'; wrap.innerHTML = html; return; }
+  if (!rows.length) { html += '<p class="empty">🎉 No student is below ' + threshold + '% in this period.</p>'; wrap.innerHTML = html; return; }
+  html += '<div class="table-wrap"><table class="data-table"><thead><tr>' +
+    '<th>#</th><th>Student</th><th>Gender</th><th>Sec</th><th>House</th>' +
+    '<th class="num">Present</th><th class="num">Absent</th>' +
+    '<th class="num">Working Days</th><th style="min-width:170px">Attendance %</th><th>Status</th></tr></thead><tbody>';
+  rows.forEach(function(r, i){
+    var s = r.s, st = r.st;
+    var lvl = st.pct >= 60 ? 'mid' : 'low';
+    var leftBadge = hasLeft(s) ? ' <span class="left-badge">LEFT</span>' : '';
+    html += '<tr><td>' + (i+1) + '</td><td><b>' + esc(s.name) + '</b>' + leftBadge + '<div class="sub">' + esc(s.father || '') + (s.c1 ? ' · ' + esc(s.c1) : '') + '</div></td>' +
+      '<td>' + genderBadge(s.gender) + '</td><td>' + esc(s.sec) + '</td><td>' + houseBadge(s.house) + '</td>' +
+      '<td class="num">' + st.p + '</td><td class="num">' + st.a + '</td><td class="num"><b>' + st.wd + '</b></td>' +
+      '<td><b style="font-size:13px">' + st.pct.toFixed(1) + '%</b><div class="bar ' + lvl + '"><i style="width:' + Math.min(100, st.pct).toFixed(1) + '%"></i></div></td>' +
+      '<td><span class="pill ' + (st.pct < 60 ? 'bad' : 'warn') + '">' + (st.pct < 60 ? 'Critical' : 'Low') + '</span></td></tr>';
+  });
+  html += '</tbody></table></div>';
+  wrap.innerHTML = html;
+}
+
+function renderConsolidatedChips(){
+  var wrap = $('#consMonths'); if (!wrap) return;
+  var months = availableMonths();
+  Object.keys(consSelected).forEach(function(mo){ if (months.indexOf(mo) < 0) delete consSelected[mo]; });
+  if (!consInitialised) { var pick = months.slice(-3); pick.forEach(function(mo){ consSelected[mo] = true; }); consInitialised = true; }
+  wrap.innerHTML = months.map(function(mo){
+    return '<label class="chip"><input type="checkbox" value="' + mo + '"' + (consSelected[mo] ? ' checked' : '') + '>' + monthLabel(mo) + '</label>';
+  }).join('') + '<div class="chip-actions"><button class="btn-xs" id="consAll">Select all</button><button class="btn-xs" id="consNone">Clear</button></div>';
+  $$('#consMonths input[type=checkbox]').forEach(function(cb){
+    cb.onchange = function(){ if (cb.checked) consSelected[cb.value] = true; else delete consSelected[cb.value]; renderConsolidatedTable(); renderConsolidatedOverall(); };
+  });
+  var all = $('#consAll'), none = $('#consNone');
+  if (all) all.onclick = function(){ months.forEach(function(mo){ consSelected[mo] = true; }); renderConsolidatedChips(); renderConsolidatedTable(); renderConsolidatedOverall(); };
+  if (none) none.onclick = function(){ consSelected = {}; renderConsolidatedChips(); renderConsolidatedTable(); renderConsolidatedOverall(); };
+}
+
+function renderConsolidatedTable(){
+  var wrap = $('#consWrap'); if (!wrap) return;
+  var months = Object.keys(consSelected).sort();
+  if (!DB.classes.length) { wrap.innerHTML = '<p class="empty">No classes yet.</p>'; return; }
+  if (!months.length) { wrap.innerHTML = '<p class="empty">Select at least one month above.</p>'; return; }
+  var data = {};
+  DB.classes.forEach(function(c){
+    data[c.id] = {};
+    months.forEach(function(mo){
+      var r = monthRange(mo);
+      var p = 0, wd = 0;
+      c.students.forEach(function(s){ var st = getStatsForClass(c, s, r.from, r.to); p += st.p; wd += st.wd; });
+      data[c.id][mo] = { p: p, wd: wd };
+    });
+  });
+  var html = '<table class="data-table"><thead><tr><th style="position:sticky;left:0;background:#f8fafc;z-index:3">Class</th><th class="num">Students</th>';
+  months.forEach(function(mo){ html += '<th class="num">' + monthLabel(mo) + '</th>'; });
+  html += '<th class="num">Overall</th></tr></thead><tbody>';
+  DB.classes.forEach(function(c){
+    var activeCount = c.students.filter(function(s){ return !hasLeft(s); }).length;
+    html += '<tr><td style="position:sticky;left:0;background:#fff;z-index:2"><b>' + esc(c.name) + '</b><div class="sub">' + c.students.length + ' total · ' + activeCount + ' active</div></td><td class="num">' + c.students.length + '</td>';
+    var P = 0, WD = 0;
+    months.forEach(function(mo){
+      var d = data[c.id][mo];
+      P += d.p; WD += d.wd;
+      var pct = d.wd ? (d.p * 100 / d.wd) : null;
+      var cls = pct === null ? '' : pct >= 90 ? 'ok' : pct >= 75 ? 'warn' : 'bad';
+      html += '<td class="num">' + (pct === null ? '<span style="color:#cbd5e1">–</span>' : '<span class="pill ' + cls + '">' + pct.toFixed(1) + '%</span>') + '<div class="sub">' + d.p + '/' + d.wd + ' WD</div></td>';
+    });
+    var ov = WD ? (P * 100 / WD) : null;
+    var ovCls = ov === null ? '' : ov >= 90 ? 'ok' : ov >= 75 ? 'warn' : 'bad';
+    html += '<td class="num">' + (ov === null ? '–' : '<span class="pill ' + ovCls + '">' + ov.toFixed(1) + '%</span>') + '<div class="sub">' + P + '/' + WD + ' WD</div></td></tr>';
+  });
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
+}
+
+function renderConsolidatedOverall(){
+  var wrap = $('#consOverall'); if (!wrap) return;
+  if (!DB.classes.length) { wrap.innerHTML = '<p class="empty">No classes yet.</p>'; return; }
+  var from = sessStart() || null, to = sessEnd() || null;
+  var rows = DB.classes.map(function(c){
+    var p = 0, a = 0, wd = 0;
+    c.students.forEach(function(s){ var st = getStatsForClass(c, s, from, to); p += st.p; a += st.a; wd += st.wd; });
+    var pct = wd ? (p * 100 / wd) : 0;
+    return { c: c, p: p, a: a, wd: wd, pct: pct, total: c.students.length, active: c.students.filter(function(s){ return !hasLeft(s); }).length };
+  });
+  rows.sort(function(x,y){ return y.pct - x.pct; });
+  var totP = 0, totWD = 0, totA = 0;
+  rows.forEach(function(r){ totP += r.p; totWD += r.wd; totA += r.a; });
+  var overall = totWD ? (totP * 100 / totWD) : 0;
+  var schoolBoys = 0, schoolGirls = 0, schoolTotal = 0;
+  rows.forEach(function(r){ r.c.students.forEach(function(s){ if (hasLeft(s)) return; if (s.gender === 'Male') schoolBoys++; else if (s.gender === 'Female') schoolGirls++; schoolTotal++; }); });
+  var html = '<div class="stat-row">' +
+    '<div class="stat blue"><div class="v">' + DB.classes.length + '</div><div class="l">Total Classes</div></div>' +
+    '<div class="stat"><div class="v">' + schoolTotal + '</div><div class="l">Active Students</div><div class="sub">Boys ' + schoolBoys + ' · Girls ' + schoolGirls + '</div></div>' +
+    '<div class="stat ok"><div class="v">' + overall.toFixed(1) + '%</div><div class="l">School Average</div><div class="sub">' + totP + '/' + totWD + ' WD</div></div></div>' +
+    '<div class="table-wrap"><table class="data-table"><thead><tr><th>#</th><th>Class</th><th class="num">Students</th><th class="num">Present</th><th class="num">Absent</th><th class="num">Working Days</th><th style="min-width:200px">Overall %</th><th>Status</th></tr></thead><tbody>';
+  rows.forEach(function(r, i){
+    var lvl = r.pct >= 90 ? 'ok' : r.pct >= 75 ? 'warn' : 'bad';
+    var barLvl = r.pct >= 90 ? '' : r.pct >= 75 ? 'mid' : 'low';
+    html += '<tr><td>' + (i+1) + '</td><td><b>' + esc(r.c.name) + '</b><div class="sub">' + r.active + ' active of ' + r.total + '</div></td><td class="num">' + r.total + '</td><td class="num">' + r.p + '</td><td class="num">' + r.a + '</td><td class="num">' + r.wd + '</td><td><span class="pill ' + lvl + '">' + r.pct.toFixed(1) + '%</span><div class="bar ' + barLvl + '"><i style="width:' + Math.min(100, r.pct).toFixed(1) + '%"></i></div></td><td>' + (r.pct >= 90 ? '<span class="pill ok">Excellent</span>' : r.pct >= 75 ? '<span class="pill warn">Good</span>' : '<span class="pill bad">Needs Attention</span>') + '</td></tr>';
+  });
+  html += '</tbody></table></div>';
+  wrap.innerHTML = html;
+}
+
+function renderConsolidated(){ renderConsolidatedChips(); renderConsolidatedTable(); renderConsolidatedOverall(); }
+
+function bindPasswordForms(){
+  var mpForm = $('#masterPwdForm');
+  if (mpForm) mpForm.addEventListener('submit', function(e){
+    e.preventDefault();
+    if (state.role !== 'master') { toast('Only master can change the master password.', 'err'); return; }
+    var oldP = $('#mp_old').value, newP = $('#mp_new').value, newP2 = $('#mp_new2').value;
+    if (oldP !== DB.masterPassword) { toast('Current master password is incorrect.', 'err'); return; }
+    if (!newP || newP.length < 4) { toast('New password must be at least 4 characters.', 'err'); return; }
+    if (newP !== newP2) { toast('New passwords do not match.', 'err'); return; }
+    DB.masterPassword = newP;
+    persist(); mpForm.reset();
+    toast('✓ Master password updated.', 'ok');
+  });
+  var myForm = $('#myPwdForm');
+  if (myForm) myForm.addEventListener('submit', function(e){
+    e.preventDefault();
+    var cls = activeClass(); if (!cls) return;
+    var oldP = $('#cp_old').value, newP = $('#cp_new').value, newP2 = $('#cp_new2').value;
+    if (oldP !== cls.password) { toast('Current password is incorrect.', 'err'); return; }
+    if (!newP || newP.length < 3) { toast('New password must be at least 3 characters.', 'err'); return; }
+    if (newP !== newP2) { toast('New passwords do not match.', 'err'); return; }
+    cls.password = newP;
+    persist(); myForm.reset();
+    toast('✓ Class password updated.', 'ok');
+  });
+}
+
+function renderAll(){
+  invalidate();
+  updateHeaderTitle();
+  refreshSchoolStatus();
+  refreshFilterLists();
+  populateHouseSelect();
+  renderStudents();
+  renderHouses();
+  renderClasses();
+  renderMyClass();
+  renderRegister();
+  renderHolidays();
+  renderSummary();
+  renderLow();
+  renderConsolidated();
+  updateDirtyUI();
+}
+
+function bindEvents(){
+  var loginRole = 'master';
+  $$('#loginScreen .login-tabs button').forEach(function(b){
+    b.addEventListener('click', function(){
+      loginRole = b.dataset.lt;
+      $$('#loginScreen .login-tabs button').forEach(function(x){ x.classList.toggle('active', x === b); });
+      $('#classSelectWrap').hidden = (loginRole !== 'class');
+      $('#loginErr').hidden = true;
+      var sel = $('#loginClassSelect');
+      if (sel) {
+        sel.innerHTML = DB.classes.length ? DB.classes.map(function(c){ return '<option value="' + esc(c.id) + '">' + esc(c.name) + '</option>'; }).join('') : '<option value="">— No classes —</option>';
+      }
+      $('#loginPwd').focus();
+    });
+  });
+  var loginForm = $('#loginForm');
+  if (loginForm) loginForm.addEventListener('submit', function(e){
+    e.preventDefault();
+    var pwd = $('#loginPwd').value;
+    var clsId = $('#loginClassSelect').value;
+    var err = loginRole === 'master' ? login('master', null, pwd) : login('class', clsId, pwd);
+    if (err) { $('#loginErr').textContent = err; $('#loginErr').hidden = false; return; }
+    $('#loginErr').hidden = true;
+    $('#loginPwd').value = '';
+    showApp();
+  });
+  var hdrSel = $('#hdrClassSelect');
+  if (hdrSel) hdrSel.addEventListener('change', function(e){
+    state.activeClassId = e.target.value;
+    sumInitialised = false;
+    renderAll();
+    switchTab(state.currentTab);
+  });
+  var b1 = $('#btnSaveFile'); if (b1) b1.addEventListener('click', saveToFile);
+  var b2 = $('#btnBackup'); if (b2) b2.addEventListener('click', function(){
+    var blob = new Blob([JSON.stringify(DB, null, 2)], { type: 'application/json' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    var base = THIS_FILENAME.replace(/\.html?$/i, '') || 'attendance';
+    a.download = base + '_backup_' + new Date().toISOString().slice(0,10) + '.json';
+    a.click();
+    setTimeout(function(){ URL.revokeObjectURL(a.href); }, 4000);
+  });
+  var b3 = $('#btnRestore'); if (b3) b3.addEventListener('click', function(){ $('#restoreInput').click(); });
+  var ri = $('#restoreInput'); if (ri) ri.addEventListener('change', function(e){
+    var f = e.target.files[0]; if (!f) return;
+    var r = new FileReader();
+    r.onload = function(ev){
+      try {
+        var d = JSON.parse(ev.target.result);
+        if (!d || (!Array.isArray(d.students) && !Array.isArray(d.classes))) throw new Error('bad file');
+        if (!confirm('Restoring will replace all current data. Continue?')) return;
+        var keepId = DB.fileId, keepMaster = DB.masterPassword;
+        DB = normaliseDB(d);
+        DB.fileId = keepId;
+        if (!DB.masterPassword) DB.masterPassword = keepMaster;
+        syncHousesFromAllClasses();
+        persist();
+        $('#schoolName').value = DB.school;
+        $('#sessionName').value = DB.session.name || '';
+        $('#sessionStart').value = DB.session.start || '';
+        $('#sessionEnd').value = DB.session.end || '';
+        $('#regSunday').checked = DB.settings.sundayHoliday;
+        $('#regMonth').value = defaultRegisterMonth();
+        sumInitialised = false; sumSelected = {};
+        consInitialised = false; consSelected = {};
+        if (!state.activeClassId && DB.classes[0]) state.activeClassId = DB.classes[0].id;
+        renderAll();
+        switchTab(state.currentTab);
+        toast('Backup restored.', 'ok');
+      } catch(err){ toast('That file is not a valid backup.', 'err'); }
+    };
+    r.readAsText(f);
+    e.target.value = '';
+  });
+  var sn = $('#schoolName'); if (sn) sn.addEventListener('input', function(e){ DB.school = e.target.value; updateHeaderTitle(); persist(); });
+  var sname = $('#sessionName'); if (sname) sname.addEventListener('input', function(e){ DB.session.name = e.target.value; updateHeaderTitle(); persist(); });
+  var ss = $('#sessionStart'); if (ss) ss.addEventListener('change', function(e){
+    DB.session.start = normaliseDate(e.target.value) || '';
+    if (DB.session.end && DB.session.start > DB.session.end) toast('Start date is after end date.', 'err');
+    persist(); invalidate(); refreshSchoolStatus(); renderAll();
+  });
+  var se = $('#sessionEnd'); if (se) se.addEventListener('change', function(e){
+    DB.session.end = normaliseDate(e.target.value) || '';
+    if (DB.session.start && DB.session.start > DB.session.end) toast('End date is before start date.', 'err');
+    persist(); invalidate(); refreshSchoolStatus(); renderAll();
+  });
+  var bt1 = $('#btnSessionThisYear'); if (bt1) bt1.addEventListener('click', function(){
+    var now = new Date(); var y = now.getFullYear();
+    var startY = (now.getMonth() + 1) >= 4 ? y : y - 1;
+    var endY = startY + 1;
+    DB.session.start = startY + '-04-01'; DB.session.end = endY + '-03-31';
+    if (!DB.session.name) DB.session.name = startY + '-' + endY;
+    $('#sessionStart').value = DB.session.start; $('#sessionEnd').value = DB.session.end; $('#sessionName').value = DB.session.name;
+    $('#regMonth').value = defaultRegisterMonth();
+    persist(); invalidate(); refreshSchoolStatus(); renderAll();
+    toast('Session set to current academic year.', 'ok');
+  });
+  var bt2 = $('#btnSessionCalendarYear'); if (bt2) bt2.addEventListener('click', function(){
+    var y = new Date().getFullYear();
+    DB.session.start = y + '-01-01'; DB.session.end = y + '-12-31';
+    if (!DB.session.name) DB.session.name = 'CY ' + y;
+    $('#sessionStart').value = DB.session.start; $('#sessionEnd').value = DB.session.end; $('#sessionName').value = DB.session.name;
+    $('#regMonth').value = defaultRegisterMonth();
+    persist(); invalidate(); refreshSchoolStatus(); renderAll();
+    toast('Session set to calendar year.', 'ok');
+  });
+  var bt3 = $('#btnSessionClear'); if (bt3) bt3.addEventListener('click', function(){
+    if (!confirm('Clear session dates?')) return;
+    DB.session = { name: '', start: '', end: '' };
+    $('#sessionName').value = ''; $('#sessionStart').value = ''; $('#sessionEnd').value = '';
+    persist(); invalidate(); refreshSchoolStatus(); renderAll();
+    toast('Session cleared.', 'warn');
+  });
+  var ahb = $('#btnAddHouse'); if (ahb) ahb.addEventListener('click', function(ev){ ev.preventDefault(); addHouseFromForm(); });
+  var hf = $('#houseForm'); if (hf) hf.addEventListener('submit', function(ev){ ev.preventDefault(); addHouseFromForm(); });
+  var htb = $('#houseTbody'); if (htb) htb.addEventListener('click', function(e){
+    var ren = e.target.closest('[data-hren]'), col = e.target.closest('[data-hcol]'), rm = e.target.closest('[data-hrm]');
+    if (ren) {
+      var h = DB.houses.find(function(x){ return x.id === ren.dataset.hren; }); if (!h) return;
+      var nn = prompt('Rename house "' + h.name + '" to:', h.name); if (nn === null) return;
+      var n = nn.trim(); if (!n) return;
+      if (DB.houses.some(function(x){ return x.id !== h.id && x.name.toLowerCase() === n.toLowerCase(); })) { toast('Another house already has that name.', 'err'); return; }
+      var old = h.name; h.name = n;
+      DB.classes.forEach(function(c){ c.students.forEach(function(s){ if (s.house === old) s.house = n; }); });
+      persist(); renderAll(); toast('House renamed.', 'ok');
+    }
+    if (col) {
+      var h2 = DB.houses.find(function(x){ return x.id === col.dataset.hcol; }); if (!h2) return;
+      var c = prompt('Colour for "' + h2.name + '" (hex):', h2.color); if (c === null) return;
+      if (/^#[0-9a-fA-F]{6}$/.test(c.trim())) { h2.color = c.trim(); persist(); renderAll(); }
+      else toast('Invalid hex colour.', 'err');
+    }
+    if (rm) {
+      var h3 = DB.houses.find(function(x){ return x.id === rm.dataset.hrm; }); if (!h3) return;
+      var count = 0; DB.classes.forEach(function(c){ count += c.students.filter(function(s){ return s.house === h3.name; }).length; });
+      var msg = count ? ('"' + h3.name + '" is assigned to ' + count + ' student(s). Delete and clear them?') : ('Delete house "' + h3.name + '"?');
+      if (!confirm(msg)) return;
+      DB.classes.forEach(function(c){ c.students.forEach(function(s){ if (s.house === h3.name) s.house = ''; }); });
+      DB.houses = DB.houses.filter(function(x){ return x.id !== h3.id; });
+      persist(); renderAll(); toast('House deleted.', 'warn');
+    }
+  });
+  var cf = $('#classForm'); if (cf) cf.addEventListener('submit', function(e){ e.preventDefault(); addClassFromForm(); });
+  var ctb = $('#classTbody'); if (ctb) ctb.addEventListener('click', function(e){
+    var act = e.target.closest('[data-cact]'), ren = e.target.closest('[data-cren]');
+    var rst = e.target.closest('[data-crst]'), del = e.target.closest('[data-cdel]');
+    if (act) {
+      state.activeClassId = act.dataset.cact;
+      sumInitialised = false; sumSelected = {};
+      persist(); renderAll();
+      switchTab(state.currentTab === 'classes' ? 'entry' : state.currentTab);
+      toast('Active class: ' + (activeClass() ? activeClass().name : ''), 'ok');
+      return;
+    }
+    if (ren) {
+      var c = DB.classes.find(function(x){ return x.id === ren.dataset.cren; }); if (!c) return;
+      var nn = prompt('Rename class "' + c.name + '" to:', c.name); if (nn === null) return;
+      var n = nn.trim(); if (!n) return;
+      if (DB.classes.some(function(x){ return x.id !== c.id && x.name.toLowerCase() === n.toLowerCase(); })) { toast('Another class already has that name.', 'err'); return; }
+      c.name = n;
+      persist(); renderAll(); toast('Class renamed.', 'ok');
+      return;
+    }
+    if (rst) {
+      var c2 = DB.classes.find(function(x){ return x.id === rst.dataset.crst; }); if (!c2) return;
+      var np = prompt('Enter NEW password for class "' + c2.name + '".\n\nLeave blank to reset to the default password.', '');
+      if (np === null) return;
+      var t = np.trim();
+      if (!t) t = CLASS_DEFAULT_PWD;
+      c2.password = t;
+      persist();
+      toast('Password reset for "' + c2.name + '".', 'ok');
+      return;
+    }
+    if (del) {
+      var c3 = DB.classes.find(function(x){ return x.id === del.dataset.cdel; }); if (!c3) return;
+      if (!confirm('Delete class "' + c3.name + '" permanently?\n\nAll its ' + c3.students.length + ' student(s) and attendance records will be removed.')) return;
+      DB.classes = DB.classes.filter(function(x){ return x.id !== c3.id; });
+      if (state.activeClassId === c3.id) { state.activeClassId = DB.classes[0] ? DB.classes[0].id : null; sumInitialised = false; sumSelected = {}; }
+      persist(); renderAll();
+      toast('Class deleted.', 'warn');
+    }
+  });
+  var sf = $('#studentForm'); if (sf) sf.addEventListener('submit', function(e){
+    e.preventDefault();
+    var cls = activeClass(); if (!cls) { toast('Select a class first.', 'err'); return; }
+    var name = $('#f_name').value.trim(); if (!name) { alert('Student name is required.'); return; }
+    var houseVal = $('#f_house').value; var house = (houseVal === '__NEW__') ? '' : houseVal;
+    var admit = normaliseDate($('#f_admit').value) || '';
+    var left = normaliseDate($('#f_left').value) || '';
+    if (admit && left && left < admit) { toast('Left Date cannot be before Admission Date.', 'err'); return; }
+    var data = normaliseStudent({
+      id: editingId || uid(), name: name,
+      gender: $('#f_gender').value, sec: $('#f_sec').value.trim(),
+      dob: normaliseDate($('#f_dob').value) || '',
+      father: $('#f_father').value.trim(), mother: $('#f_mother').value.trim(),
+      house: house, c1: $('#f_c1').value.trim(), c2: $('#f_c2').value.trim(),
+      address: $('#f_addr').value.trim(), admitDate: admit, leftDate: left
+    });
+    var i = cls.students.findIndex(function(s){ return s.id === data.id; });
+    if (i >= 0) cls.students[i] = data; else cls.students.push(data);
+    persist(); clearStudentForm(); renderAll();
+    toast(i >= 0 ? 'Student updated.' : 'Student added.', 'ok');
+  });
+  var fh = $('#f_house'); if (fh) fh.addEventListener('change', function(e){
+    if (e.target.value !== '__NEW__') return;
+    var n = prompt('Enter the new house name:');
+    var name = (n || '').trim();
+    if (!name) { populateHouseSelect(); return; }
+    if (!Array.isArray(DB.houses)) DB.houses = [];
+    var exists = DB.houses.some(function(h){ return String(h.name||'').toLowerCase() === name.toLowerCase(); });
+    if (!exists) {
+      DB.houses.push({ id: uid(), name: name, color: DEFAULT_HOUSE_COLORS[DB.houses.length % DEFAULT_HOUSE_COLORS.length] });
+      persist(); renderAll(); toast('✓ House "' + name + '" added.', 'ok');
+    } else { toast('House "' + name + '" already exists — selected.', 'warn'); }
+    populateHouseSelect();
+    $('#f_house').value = name;
+  });
+  var bcf = $('#btnClearForm'); if (bcf) bcf.addEventListener('click', clearStudentForm);
+  var stb = $('#studentTbody'); if (stb) stb.addEventListener('click', function(e){
+    var cls = activeClass(); if (!cls) return;
+    var ed = e.target.closest('[data-edit]'), dl = e.target.closest('[data-del]'), lf = e.target.closest('[data-left]'), rs = e.target.closest('[data-restore]');
+    if (ed) { var s1 = cls.students.find(function(x){ return x.id === ed.dataset.edit; }); if (s1) fillStudentForm(s1); }
+    if (lf) {
+      var s2 = cls.students.find(function(x){ return x.id === lf.dataset.left; }); if (!s2) return;
+      var d = prompt('Mark "' + s2.name + '" as LEFT.\nEnter left date (YYYY-MM-DD):', todayStr()); if (d === null) return;
+      var dd = normaliseDate(d); if (!dd) { toast('Invalid date.', 'err'); return; }
+      if (s2.admitDate && dd < s2.admitDate) { toast('Left date cannot be before admission.', 'err'); return; }
+      s2.leftDate = dd;
+      persist(); renderAll(); toast('"' + s2.name + '" marked as left from ' + dd + '.', 'ok');
+    }
+    if (rs) {
+      var s3 = cls.students.find(function(x){ return x.id === rs.dataset.restore; }); if (!s3) return;
+      if (!confirm('Restore "' + s3.name + '" back to active?')) return;
+      s3.leftDate = '';
+      persist(); renderAll(); toast('Student restored.', 'ok');
+    }
+    if (dl) {
+      var id = dl.dataset.del;
+      var s4 = cls.students.find(function(x){ return x.id === id; }); if (!s4) return;
+      if (!confirm('DELETE ' + s4.name + ' permanently?\n\nAll attendance records will also be removed.')) return;
+      cls.students = cls.students.filter(function(x){ return x.id !== id; });
+      for (var k in cls.attendance) if (k.indexOf(id + '|') === 0) delete cls.attendance[k];
+      persist(); renderAll(); toast('Student deleted.', 'warn');
+    }
+  });
+  ['fltSec','fltHouse','fltGender','fltLeft'].forEach(function(id){ var el = $('#' + id); if (el) el.addEventListener('change', renderStudents); });
+  var fs = $('#fltSearch'); if (fs) fs.addEventListener('input', renderStudents);
+  var btpl = $('#btnTemplate'); if (btpl) btpl.addEventListener('click', downloadTemplate);
+  var bupl = $('#btnUpload'); if (bupl) bupl.addEventListener('click', function(){ $('#fileInput').click(); });
+  var fin = $('#fileInput'); if (fin) fin.addEventListener('change', function(e){ var f = e.target.files[0]; if (f) handleUpload(f); e.target.value = ''; });
+  var rw = $('#regWrap'); if (rw) rw.addEventListener('click', onRegisterClick);
+  var rs2 = $('#regSec'); if (rs2) rs2.addEventListener('change', renderRegister);
+  var rm2 = $('#regMonth'); if (rm2) rm2.addEventListener('change', renderRegister);
+  var rsu = $('#regSunday'); if (rsu) rsu.addEventListener('change', function(e){ DB.settings.sundayHoliday = e.target.checked; persist(); invalidate(); renderRegister(); });
+  var bap = $('#btnAllP'); if (bap) bap.addEventListener('click', function(){
+    var cls = activeClass(); if (!cls) return;
+    var mv = $('#regMonth').value; if (!mv) return;
+    if (!confirm('Mark all students PRESENT for every working day of this month?')) return;
+    var p = mv.split('-').map(Number); var days = daysInMonth(p[0], p[1]);
+    var sec = $('#regSec').value; var list = studentsFiltered(sec, '', true);
+    if (!cls.attendance) cls.attendance = {};
+    list.forEach(function(s){
+      for (var d = 1; d <= days; d++) {
+        var ds = dk(p[0], p[1], d);
+        if (!inSession(ds)) continue;
+        if (isNonWorking(ds)) continue;
+        if (!isActiveOn(s, ds)) continue;
+        var k = s.id + '|' + ds;
+        if (!cls.attendance[k]) cls.attendance[k] = 'P';
+      }
+    });
+    persist(); invalidate(); renderRegister(); toast('Marked present.', 'ok');
+  });
+  var bcm = $('#btnClearMonth'); if (bcm) bcm.addEventListener('click', function(){
+    var cls = activeClass(); if (!cls) return;
+    var mv = $('#regMonth').value; if (!mv) return;
+    if (!confirm('Clear ALL attendance entries for this month?')) return;
+    var list = studentsFiltered($('#regSec').value, '', true);
+    var ids = {}; list.forEach(function(s){ ids[s.id] = true; });
+    for (var k in cls.attendance) {
+      var sid = k.slice(0, k.indexOf('|'));
+      var d = k.slice(k.indexOf('|') + 1);
+      if (ids[sid] && d.indexOf(mv) === 0) delete cls.attendance[k];
+    }
+    persist(); invalidate(); renderRegister(); toast('Month cleared.', 'warn');
+  });
+  var ahb2 = $('#btnAddHoliday'); if (ahb2) ahb2.addEventListener('click', function(ev){ ev.preventDefault(); addHolidayFromForm(); });
+  var hf2 = $('#holidayForm'); if (hf2) hf2.addEventListener('submit', function(ev){ ev.preventDefault(); addHolidayFromForm(); });
+  var htb2 = $('#holidayTbody'); if (htb2) htb2.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-hdel]'); if (!btn) return;
+    if (state.role !== 'master') { toast('Only master can delete holidays.', 'err'); return; }
+    var h = DB.holidays.find(function(x){ return x.id === btn.dataset.hdel; }); if (!h) return;
+    if (!confirm('Remove holiday "' + h.reason + '" on ' + fmtDate(h.date) + '?')) return;
+    DB.holidays = DB.holidays.filter(function(x){ return x.id !== h.id; });
+    persist(); invalidate(); renderHolidays(); renderRegister(); renderSummary(); renderLow(); renderConsolidated();
+    toast('Holiday removed.', 'warn');
+  });
+  var ssec = $('#sumSec'); if (ssec) ssec.addEventListener('change', renderSummaryTable);
+  var lsec = $('#lowSec'); if (lsec) lsec.addEventListener('change', renderLow);
+  var lf2 = $('#lowFrom'); if (lf2) lf2.addEventListener('change', renderLow);
+  var lt2 = $('#lowTo'); if (lt2) lt2.addEventListener('change', renderLow);
+  var lt3 = $('#lowThr'); if (lt3) lt3.addEventListener('input', renderLow);
+  var bal = $('#btnApplyLow'); if (bal) bal.addEventListener('click', renderLow);
+  bindPasswordForms();
+  window.addEventListener('beforeunload', function(e){ if (dirty) { e.preventDefault(); e.returnValue = ''; } });
+}
+
+function init(){
+  loadDB();
+  var now = new Date();
+  var curMonth = now.getFullYear() + '-' + pad(now.getMonth() + 1);
+  $('#regMonth').value = defaultRegisterMonth() || curMonth;
+  var months = availableMonths();
+  $('#lowFrom').value = months[0] || curMonth;
+  $('#lowTo').value = months[months.length - 1] || curMonth;
+  $('#schoolName').value = DB.school;
+  $('#sessionName').value = DB.session.name || '';
+  $('#sessionStart').value = DB.session.start || '';
+  $('#sessionEnd').value = DB.session.end || '';
+  $('#regSunday').checked = DB.settings.sundayHoliday;
+  $('#hdrSub').textContent = 'File: ' + THIS_FILENAME;
+  $('#f_admit').value = todayStr();
+  bindEvents();
+  if (restoreSession()) { showApp(); }
+  else {
+    var sel = $('#loginClassSelect');
+    if (sel) {
+      sel.innerHTML = DB.classes.length ? DB.classes.map(function(c){ return '<option value="' + esc(c.id) + '">' + esc(c.name) + '</option>'; }).join('') : '<option value="">— No classes available —</option>';
+    }
+    var ls = $('#loginScreen');
+    ls.hidden = false; ls.style.display = 'flex';
+  }
+}
+
+init();
+</script></body></html>
